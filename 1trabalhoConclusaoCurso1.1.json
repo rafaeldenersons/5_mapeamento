@@ -1,0 +1,1259 @@
+{
+  "baseIRI": "http://dados.ufes.br/tcc/data#",
+  "namespaces": {
+    "data": "http://dados.ufes.br/tcc/data#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "": "http://dados.ufes.br/tcc/onto#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "bibframe": "http://id.loc.gov/ontologies/bibframe/",
+    "ov": "http://open.vocab.org/terms/",
+    "meb": "http://rdf.myexperiment.org/ontologies/base/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "sio": "http://semanticscience.org/resource/",
+    "mrel": "http://id.loc.gov/vocabulary/relators/",
+    "sur": "https://w3id.org/survey-ontology#",
+    "cwmo": "http://purl.org/cwmo/#"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "identificacaoUnicaDocumento"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idDocumento",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "dc",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "identifier"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idDocumento",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "identifier"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idDocumento",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "tituloDocumento"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "titulo",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "bibframe",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "title"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "titulo",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "title"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "titulo",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "resumoDocumento"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "resumo",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "dc",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "abstract"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "resumo",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "bibframe",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "summary"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "resumo",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "abstract"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "resumo",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "abstractDocumento"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "abstract",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "dc",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "abstract"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "abstract",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "bibframe",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "summary"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "abstract",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "abstract"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "abstract",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "semestreLetivoDocumento"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "semetreEntrada",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "ov",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "semester"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "semetreEntrada",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "numeroPaginasDocumento"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "numPaginas",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "int"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "bibframe",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "count"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "numPaginas",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "int"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasPageCount"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "numPaginas",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "int"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "uriDisseminacaoDocumento"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "enderecoWebDissertação",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "meb",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "uri"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "enderecoWebDissertação",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "disseminarMetadadoDocumento"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "disseminarMetadados",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "dc",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "publisher"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "disseminarMetadados",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idDocumento",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Documento"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "foaf",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Document"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "dbpedia",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Documento"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "orientaTCC"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "TrabalhoConclusaoCurso"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idOrientador",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sio",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "SIO_000878"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "mrel",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Thesisadvisor"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Orientador"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "coorientaTCC"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "TrabalhoConclusaoCurso"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idCoorientadorInterno",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sio",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "SIO_000878"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "mrel",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Thesisadvisor"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Coorientador"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "coorientaTCC"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "TrabalhoConclusaoCurso"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idCoorientadorExterno",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sio",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "SIO_000878"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "mrel",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Thesisadvisor"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Coorientador"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idMembroBancaInterno1",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sur",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Participant"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "cwmo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Evaluator"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "ExaminadorInterno"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idMembroBancaInterno2",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sur",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Participant"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "cwmo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Evaluator"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "ExaminadorInterno"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idMembroBancaInterno3",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sur",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Participant"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "cwmo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Evaluator"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idMembroBancaExterno1",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sur",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Participant"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "cwmo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Evaluator"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "ExaminadorExterno"
+          }
+        }
+      ]
+    }
+  ]
+}

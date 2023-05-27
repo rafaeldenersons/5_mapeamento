@@ -1,0 +1,1572 @@
+{
+  "baseIRI": "http://dados.ufes.br/tcc/data#",
+  "namespaces": {
+    "data": "http://dados.ufes.br/tcc/data#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "sio": "http://semanticscience.org/resource/",
+    "": "http://dados.ufes.br/tcc/onto#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "schema": "http://schema.org/",
+    "frbrer": "http://iflastandards.info/ns/fr/frbr/frbrer/",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "bibframe": "http://id.loc.gov/ontologies/bibframe/"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoPortuguesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave1",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoPortuguesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave2",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoPortuguesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave3",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoPortuguesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave4",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoPortuguesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave5",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoPortuguesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave6",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoPortuguesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave7",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoInglesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword1",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoInglesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword2",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoInglesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword3",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoInglesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword4",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoInglesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword5",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoInglesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword6",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "termoInglesPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword7",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave1",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave2",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave3",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave4",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave5",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave6",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave7",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword1",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword2",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword3",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword4",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword5",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword6",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword7",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave1",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave2",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave3",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave4",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave5",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave6",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "palavraChave7",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword1",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword2",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword3",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword4",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword5",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword6",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "keyword7",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idPalavraChave",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sio",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "SIO_000147"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "compostoPorPalavraChave"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idPalavraChave",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idPalavraChave",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keyword"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idPalavraChave",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idDocumento",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "TrabalhoConclusaoCurso"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "schema",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Thesis"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "fabio",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "ScholarlyWork"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "frbrer",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "C1004"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "dbpedia",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Trabalho_de_conclusão_de_curso"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "associadaIES"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idInstituicao",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "rico",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "teachingRelationHasSource"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idInstituicao",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "bibframe",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "grantingInstitution"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idInstituicao",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idAutor",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "PessoaInstitucionalizada"
+          }
+        }
+      ]
+    }
+  ]
+}

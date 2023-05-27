@@ -1,0 +1,939 @@
+{
+  "baseIRI": "http://dados.ufes.br/tcc/data#",
+  "namespaces": {
+    "": "http://dados.ufes.br/tcc/onto#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "wdo": "http://www.wikidata.org/ontology#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "teach": "http://linkedscience.org/teach/ns#",
+    "data": "http://dados.ufes.br/tcc/data#",
+    "sro": "http://salt.semanticauthoring.org/ontologies/sro#",
+    "fabio": "http://purl.org/spar/fabio/",
+    "ptop": "http://www.ontotext.com/proton/protontop#",
+    "scoro": "http://purl.org/spar/scoro/",
+    "sur": "https://w3id.org/survey-ontology#",
+    "cwmo": "http://purl.org/cwmo/#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "vivo": "http://vivoweb.org/ontology/core#"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "nomeCursoPosGraduacao"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "curso",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "nomeCursoPosGraduacao"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cursoReconciliado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "nomeCursoPosGraduacao"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cursoSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "nomeCursoPosGraduacao"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cursoSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "dc",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "title"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "curso",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "dc",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "title"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cursoReconciliado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "dc",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "title"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cursoSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "dc",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "title"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cursoSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "teach",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "courseTitle"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "curso",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "teach",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "courseTitle"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cursoReconciliado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "teach",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "courseTitle"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cursoSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "teach",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "courseTitle"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cursoSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "cursoCodigoWikidata",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "wdo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Q600134"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "schema",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Course"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "CursoPosGraduacao"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "nivelCodigoWikidata",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "wdo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Q4218455"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "wdo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Q18189"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "wdo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Q189533"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "wdo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Q26269989"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Mestrado"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "dataHoraAvaliacaoDefesa"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "dataDefesa",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "dateTime"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "ptop",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "registeredIn"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "dataDefesa",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "dateTime"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "fabio",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasDecisionDate"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "dataDefesa",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "dateTime"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "ptop",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "registeredIn"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "dataDefesa",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "dateTime"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "codigoDefesa"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idDefesa",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "dc",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "identifier"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idDefesa",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "referenteTCC"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "data",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "idDefesa",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idDefesa",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "schema",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "EducationEvent"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sro",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Evaluation"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sro",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Discussion"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sro",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Argument"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sro",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Claim"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idMembroBancaExterno2",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sur",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Participant"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "cwmo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Evaluator"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "ExaminadorExterno"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idCoorientadorInterno",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "foaf",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Group"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "scoro",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "EducationalRole"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "vivo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "MemberRole"
+          }
+        }
+      ]
+    }
+  ]
+}
