@@ -1,0 +1,2065 @@
+{
+  "baseIRI": "http://dados.ufes.br/tcc/data#",
+  "namespaces": {
+    "data": "http://dados.ufes.br/tcc/data#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "bibframe": "http://id.loc.gov/ontologies/bibframe/",
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "": "http://dados.ufes.br/tcc/onto#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "wdo": "http://www.wikidata.org/ontology#",
+    "gn": "http://www.geonames.org/ontology#"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "cidadeLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidade",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "cidadeLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeReconciliada",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "cidadeLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "cidadeLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "cidadeLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidade",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeReconciliada",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidade",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeReconciliada",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidade",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeReconciliada",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "estadoLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "estadoLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoReconciliado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "estadoLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "estadoLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "estadoLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoReconciliado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoReconciliado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoReconciliado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estadoSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "paisLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "pais",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "paisLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisReconciliado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "paisLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "paisLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "paisLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "pais",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisReconciliado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "pais",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisReconciliado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "pais",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisReconciliado",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paisSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "cidadeSameAsGeoNames",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idCidade",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "bibframe",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Place"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "schema",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Place"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "dc",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Location"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "LocalFisico"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "baseIRI": "http://dados.ufes.br/tcc/data#",
+  "namespaces": {
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "": "http://dados.ufes.br/tcc/onto#"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "nomeIES",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "instituicaoSameAsWikidata",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "nomeIES",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "instituicaoSameAsDbpedia",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "cidade",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "cidadeSameAsWikidata",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "cidade",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "cidadeSameAsDbpedia",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "cidade",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "cidadeSameAsGeoNames",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estado",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "estadoSameAsWikidata",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estado",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "estadoSameAsDbpedia",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "estado",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "estadoSameAsGeoNames",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "pais",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "paisSameAsWikidata",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "pais",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "paisSameAsDbpedia",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "pais",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "paisSameAsGeoNames",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+{
+  "baseIRI": "http://dados.ufes.br/tcc/data#",
+  "namespaces": {
+    "data": "http://dados.ufes.br/tcc/data#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "wdo": "http://www.wikidata.org/ontology#",
+    "schema": "http://schema.org/",
+    "cwrc": "http://sparql.cwrc.ca/ontology/cwrc#",
+    "sio": "http://semanticscience.org/resource/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "pext": "http://www.ontotext.com/proton/protonext#",
+    "": "http://dados.ufes.br/tcc/onto#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "vivo": "http://vivoweb.org/ontology/core#",
+    "bibframe": "http://id.loc.gov/ontologies/bibframe/",
+    "dqm": "http://purl.org/dqm-vocabulary/v1/dqm#",
+    "gn": "http://www.geonames.org/ontology#",
+    "wde": "https://www.wikidata.org/entity/",
+    "dbpedia": "http://dbpedia.org/resource/"
+  },
+  "subjectMappings": [
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "siglaIES"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "sigla",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "vivo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "abbreviation"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "sigla",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "nomeIES"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "nomeIES",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "nomeIES"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "instituicaoReconciliada",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "wde",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "instituicaoCodigoWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "dbpedia",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "instituicaoCodigoSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "bibframe",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "grantingInstitution"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "nomeIES",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "bibframe",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "grantingInstitution"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "instituicaoReconciliada",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "PP1813"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "nomeIES",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "pt-BR"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "PP1813"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "instituicaoReconciliada",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "en"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "uriIES"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paginaWeb",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "dqm",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "hasURI"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "paginaWeb",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "anyURI"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "localizadaEmLocalFisico"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "idCidade",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "wdo",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "Q82799"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "nomeIES",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "nomeIES",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "gn",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "nomeIES",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "datatype_literal",
+                "datatype": {
+                  "transformation": {
+                    "expression": "xsd",
+                    "language": "prefix"
+                  },
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "string"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "wde",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "instituicaoCodigoWikidata",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "owl",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "sameAs"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "dbpedia",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "columnName": "instituicaoCodigoSameAsDbpedia",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "transformation": {
+          "expression": "data",
+          "language": "prefix"
+        },
+        "valueSource": {
+          "columnName": "idInstituicao",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "owl",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "NamedIndividual"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "wdo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Q2385804"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "wdo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Q5341295"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "wdo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Q1211427"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "schema",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "EducationalOrganization"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "cwrc",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "EducationalOrganization"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "sio",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "SIO_000290"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "dbo",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "EducationalInstitution"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "pext",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "EducationalOrganization"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "pext",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "University"
+          }
+        },
+        {
+          "transformation": {
+            "expression": "",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "InstituicaoEnsinoSuperior"
+          }
+        }
+      ]
+    }
+  ]
+}
