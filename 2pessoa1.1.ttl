@@ -1,0 +1,989 @@
+@base <http://dados.ufes.br/tcc/data#> .
+@prefix data: <http://dados.ufes.br/tcc/data#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix : <http://dados.ufes.br/tcc/onto#> .
+@prefix scoro: <http://purl.org/spar/scoro/> .
+@prefix whois: <http://www.kanzaki.com/ns/whois#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix pext: <http://www.ontotext.com/proton/protonext#> .
+@prefix km4c: <http://www.disit.org/km4city/schema#> .
+@prefix wdo: <http://www.wikidata.org/ontology#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontology/cwrc#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix frapo: <http://purl.org/cerif/frapo> .
+
+data:PES0001 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Adriana Isidório da Silva Zamite"@pt-BR;
+  foaf:name "Adriana Isidório da Silva Zamite"@pt-BR;
+  dc:name "Adriana Isidório da Silva Zamite"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "adrianaisidoriosilva@gmail.com";
+  foaf:mbox "adrianaisidoriosilva@gmail.com";
+  pext:hasEMail "adrianaisidoriosilva@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "adrianaisidoriosilva@gmail.com";
+  :cpfPessoa "PES0001";
+  dc:identifier "PES0001";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/2544521607642897"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/2544521607642897"^^xsd:anyURI .
+
+data:PES0002 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Alessandra Monteiro Pattuzzo Caetano"@pt-BR;
+  foaf:name "Alessandra Monteiro Pattuzzo Caetano"@pt-BR;
+  dc:name "Alessandra Monteiro Pattuzzo Caetano"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "apattuzzo@gmail.com";
+  foaf:mbox "apattuzzo@gmail.com";
+  pext:hasEMail "apattuzzo@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "apattuzzo@gmail.com";
+  :cpfPessoa "PES0002";
+  dc:identifier "PES0002";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0001-6291-8608"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0001-6291-8608"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/4610955539025040"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/4610955539025040"^^xsd:anyURI .
+
+data:PES0003 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Daniela Lucas da Silva Lemos"@pt-BR;
+  foaf:name "Daniela Lucas da Silva Lemos"@pt-BR;
+  dc:name "Daniela Lucas da Silva Lemos"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "daniela.l.silva@ufes.br";
+  foaf:mbox "daniela.l.silva@ufes.br", "danielalucas@hotmail.com";
+  pext:hasEMail "daniela.l.silva@ufes.br", "danielalucas@hotmail.com"^^xsd:anyURI;
+  :emailAlternativoPessoa "danielalucas@hotmail.com";
+  km4c:alternativeEmail "danielalucas@hotmail.com";
+  :cpfPessoa "PES0003";
+  dc:identifier "PES0003";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0003-1565-7366"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0003-1565-7366"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/9280443047358807"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/9280443047358807"^^xsd:anyURI .
+
+data:PES0004 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Dirceu Flavio Macedo"@pt-BR;
+  foaf:name "Dirceu Flavio Macedo"@pt-BR;
+  dc:name "Dirceu Flavio Macedo"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "dfmacedo@gmail.com";
+  foaf:mbox "dfmacedo@gmail.com";
+  pext:hasEMail "dfmacedo@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "dfmacedo@gmail.com";
+  :cpfPessoa "PES0004";
+  dc:identifier "PES0004";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0003-4837-3618"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0003-4837-3618"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/2765166629600107"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/2765166629600107"^^xsd:anyURI .
+
+data:PES0005 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Edma Jantorno"@pt-BR;
+  foaf:name "Edma Jantorno"@pt-BR;
+  dc:name "Edma Jantorno"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "ejantorno28@gmail.com";
+  foaf:mbox "ejantorno28@gmail.com";
+  pext:hasEMail "ejantorno28@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "ejantorno28@gmail.com";
+  :cpfPessoa "PES0005";
+  dc:identifier "PES0005";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-6411-0853"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-6411-0853"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/6940649213589691"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/6940649213589691"^^xsd:anyURI .
+
+data:PES0006 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Eliana Terra Barbosa"@pt-BR;
+  foaf:name "Eliana Terra Barbosa"@pt-BR;
+  dc:name "Eliana Terra Barbosa"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "elianaterra@hotmail.com";
+  foaf:mbox "elianaterra@hotmail.com";
+  pext:hasEMail "elianaterra@hotmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "elianaterra@hotmail.com";
+  :cpfPessoa "PES0006";
+  dc:identifier "PES0006";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/4637550692768963"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/4637550692768963"^^xsd:anyURI .
+
+data:PES0007 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Fabiola Pereira Costa"@pt-BR;
+  foaf:name "Fabiola Pereira Costa"@pt-BR;
+  dc:name "Fabiola Pereira Costa"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "fabiolajpc@hotmail.com";
+  foaf:mbox "fabiolajpc@hotmail.com";
+  pext:hasEMail "fabiolajpc@hotmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "fabiolajpc@hotmail.com";
+  :cpfPessoa "PES0007";
+  dc:identifier "PES0007";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-0456-8897"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-0456-8897"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/0957039987080230"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/0957039987080230"^^xsd:anyURI .
+
+data:PES0008 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Gabriel Meneguelli Soella"@pt-BR;
+  foaf:name "Gabriel Meneguelli Soella"@pt-BR;
+  dc:name "Gabriel Meneguelli Soella"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "gabrielmsoella@gmail.com";
+  foaf:mbox "gabrielmsoella@gmail.com";
+  pext:hasEMail "gabrielmsoella@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "gabrielmsoella@gmail.com";
+  :cpfPessoa "PES0008";
+  dc:identifier "PES0008";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-5671-2213"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-5671-2213"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/9149727038302746"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/9149727038302746"^^xsd:anyURI .
+
+data:PES0009 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Gerson Moreira Ramos Junior"@pt-BR;
+  foaf:name "Gerson Moreira Ramos Junior"@pt-BR;
+  dc:name "Gerson Moreira Ramos Junior"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "g.ramosjunior@gmail.com";
+  foaf:mbox "g.ramosjunior@gmail.com";
+  pext:hasEMail "g.ramosjunior@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "g.ramosjunior@gmail.com";
+  :cpfPessoa "PES0009";
+  dc:identifier "PES0009";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/5422937775926507"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/5422937775926507"^^xsd:anyURI .
+
+data:PES0010 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Gleice Pereira"@pt-BR;
+  foaf:name "Gleice Pereira"@pt-BR;
+  dc:name "Gleice Pereira"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "gleice.pereira@ufes.br";
+  foaf:mbox "gleice.pereira@ufes.br", "gleiceufes@gmail.com";
+  pext:hasEMail "gleice.pereira@ufes.br", "gleiceufes@gmail.com"^^xsd:anyURI;
+  :emailAlternativoPessoa "gleiceufes@gmail.com";
+  km4c:alternativeEmail "gleiceufes@gmail.com";
+  :cpfPessoa "PES0010";
+  dc:identifier "PES0010";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0001-5099-112X"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0001-5099-112X"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/0335559966184833"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/0335559966184833"^^xsd:anyURI .
+
+data:PES0011 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Henrique Monteiro Cristovao"@pt-BR;
+  foaf:name "Henrique Monteiro Cristovao"@pt-BR;
+  dc:name "Henrique Monteiro Cristovao"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "henrique.cristovao@ufes.br";
+  foaf:mbox "henrique.cristovao@ufes.br", "hmcristovao@gmail.com";
+  pext:hasEMail "henrique.cristovao@ufes.br", "hmcristovao@gmail.com"^^xsd:anyURI;
+  :emailAlternativoPessoa "hmcristovao@gmail.com";
+  km4c:alternativeEmail "hmcristovao@gmail.com";
+  :cpfPessoa "PES0011";
+  dc:identifier "PES0011";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0003-2011-7022"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0003-2011-7022"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/5035919384923489"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/5035919384923489"^^xsd:anyURI .
+
+data:PES0012 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Jacqueline Machado Silva"@pt-BR;
+  foaf:name "Jacqueline Machado Silva"@pt-BR;
+  dc:name "Jacqueline Machado Silva"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "jacmsilva@yahoo.com.br";
+  foaf:mbox "jacmsilva@yahoo.com.br";
+  pext:hasEMail "jacmsilva@yahoo.com.br"^^xsd:anyURI;
+  km4c:alternativeEmail "jacmsilva@yahoo.com.br";
+  :cpfPessoa "PES0012";
+  dc:identifier "PES0012";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/5027410926486963"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/5027410926486963"^^xsd:anyURI .
+
+data:PES0013 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Juliano Rezende Gama"@pt-BR;
+  foaf:name "Juliano Rezende Gama"@pt-BR;
+  dc:name "Juliano Rezende Gama"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "julianojrg@gmail.com";
+  foaf:mbox "julianojrg@gmail.com";
+  pext:hasEMail "julianojrg@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "julianojrg@gmail.com";
+  :cpfPessoa "PES0013";
+  dc:identifier "PES0013";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/1750305993659521"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/1750305993659521"^^xsd:anyURI .
+
+data:PES0014 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Lucileide Andrade de Lima do Nascimento"@pt-BR;
+  foaf:name "Lucileide Andrade de Lima do Nascimento"@pt-BR;
+  dc:name "Lucileide Andrade de Lima do Nascimento"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "lucileide.nascimento@ufes.br";
+  foaf:mbox "lucileide.nascimento@ufes.br", "lucileidelima@gmail.com";
+  pext:hasEMail "lucileide.nascimento@ufes.br", "lucileidelima@gmail.com"^^xsd:anyURI;
+  :emailAlternativoPessoa "lucileidelima@gmail.com";
+  km4c:alternativeEmail "lucileidelima@gmail.com";
+  :cpfPessoa "PES0014";
+  dc:identifier "PES0014";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0001-8176-5301"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0001-8176-5301"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/5544177179431479"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/5544177179431479"^^xsd:anyURI .
+
+data:PES0015 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Luiz Carlos da Silva"@pt-BR;
+  foaf:name "Luiz Carlos da Silva"@pt-BR;
+  dc:name "Luiz Carlos da Silva"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "luiz.c.silva@ufes.br";
+  foaf:mbox "luiz.c.silva@ufes.br", "luizarquivologia@gmail.com";
+  pext:hasEMail "luiz.c.silva@ufes.br", "luizarquivologia@gmail.com"^^xsd:anyURI;
+  :emailAlternativoPessoa "luizarquivologia@gmail.com";
+  km4c:alternativeEmail "luizarquivologia@gmail.com";
+  :cpfPessoa "PES0015";
+  dc:identifier "PES0015";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-1443-5879"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-1443-5879"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/2553964864422495"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/2553964864422495"^^xsd:anyURI .
+
+data:PES0016 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Maira Cristina Grigoleto"@pt-BR;
+  foaf:name "Maira Cristina Grigoleto"@pt-BR;
+  dc:name "Maira Cristina Grigoleto"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "maira.grigoleto@ufes.br";
+  foaf:mbox "maira.grigoleto@ufes.br", "magrigo@hotmail.com";
+  pext:hasEMail "maira.grigoleto@ufes.br", "magrigo@hotmail.com"^^xsd:anyURI;
+  :emailAlternativoPessoa "magrigo@hotmail.com";
+  km4c:alternativeEmail "magrigo@hotmail.com";
+  :cpfPessoa "PES0016";
+  dc:identifier "PES0016";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/8344210421589146"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/8344210421589146"^^xsd:anyURI .
+
+data:PES0017 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Marcela Aguiar da Silva Nascimento"@pt-BR;
+  foaf:name "Marcela Aguiar da Silva Nascimento"@pt-BR;
+  dc:name "Marcela Aguiar da Silva Nascimento"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "agr.marcela@gmail.com";
+  foaf:mbox "agr.marcela@gmail.com";
+  pext:hasEMail "agr.marcela@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "agr.marcela@gmail.com";
+  :cpfPessoa "PES0017";
+  dc:identifier "PES0017";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0003-1607-762X"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0003-1607-762X"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/1936426470665243"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/1936426470665243"^^xsd:anyURI .
+
+data:PES0018 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Margarete Farias de Moraes"@pt-BR;
+  foaf:name "Margarete Farias de Moraes"@pt-BR;
+  dc:name "Margarete Farias de Moraes"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "margarete.moraes@ufes.br";
+  foaf:mbox "margarete.moraes@ufes.br", "margamoraes@gmail.com";
+  pext:hasEMail "margarete.moraes@ufes.br", "margamoraes@gmail.com"^^xsd:anyURI;
+  :emailAlternativoPessoa "margamoraes@gmail.com";
+  km4c:alternativeEmail "margamoraes@gmail.com";
+  :cpfPessoa "PES0018";
+  dc:identifier "PES0018";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-4110-4610"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-4110-4610"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/6346587909398922"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/6346587909398922"^^xsd:anyURI .
+
+data:PES0019 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Marta Leandro da Mata"@pt-BR;
+  foaf:name "Marta Leandro da Mata"@pt-BR;
+  dc:name "Marta Leandro da Mata"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "marta.mata@ufes.br";
+  foaf:mbox "marta.mata@ufes.br", "martaleandrodamata@gmail.com";
+  pext:hasEMail "marta.mata@ufes.br", "martaleandrodamata@gmail.com"^^xsd:anyURI;
+  :emailAlternativoPessoa "martaleandrodamata@gmail.com";
+  km4c:alternativeEmail "martaleandrodamata@gmail.com";
+  :cpfPessoa "PES0019";
+  dc:identifier "PES0019";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-8371-4943"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-8371-4943"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/8808213730426235"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/8808213730426235"^^xsd:anyURI .
+
+data:PES0020 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Meri Nadia Marques Gerlin"@pt-BR;
+  foaf:name "Meri Nadia Marques Gerlin"@pt-BR;
+  dc:name "Meri Nadia Marques Gerlin"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "meri.gerlin@ufes.br";
+  foaf:mbox "meri.gerlin@ufes.br", "merinadia@hotmail.com";
+  pext:hasEMail "meri.gerlin@ufes.br", "merinadia@hotmail.com"^^xsd:anyURI;
+  :emailAlternativoPessoa "merinadia@hotmail.com";
+  km4c:alternativeEmail "merinadia@hotmail.com";
+  :cpfPessoa "PES0020";
+  dc:identifier "PES0020";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0003-4292-2559"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0003-4292-2559"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/7448832399554247"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/7448832399554247"^^xsd:anyURI .
+
+data:PES0021 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Mônica Alves da Fonseca"@pt-BR;
+  foaf:name "Mônica Alves da Fonseca"@pt-BR;
+  dc:name "Mônica Alves da Fonseca"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "monicadafonseca@uol.com.br";
+  foaf:mbox "monicadafonseca@uol.com.br";
+  pext:hasEMail "monicadafonseca@uol.com.br"^^xsd:anyURI;
+  km4c:alternativeEmail "monicadafonseca@uol.com.br";
+  :cpfPessoa "PES0021";
+  dc:identifier "PES0021";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/1917445298594080"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/1917445298594080"^^xsd:anyURI .
+
+data:PES0022 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Nayane Viale Vargas"@pt-BR;
+  foaf:name "Nayane Viale Vargas"@pt-BR;
+  dc:name "Nayane Viale Vargas"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "nay.nvv@gmail.com";
+  foaf:mbox "nay.nvv@gmail.com";
+  pext:hasEMail "nay.nvv@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "nay.nvv@gmail.com";
+  :cpfPessoa "PES0022";
+  dc:identifier "PES0022";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/0612328817864684"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/0612328817864684"^^xsd:anyURI .
+
+data:PES0023 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Pedro Ernesto Fagundes"@pt-BR;
+  foaf:name "Pedro Ernesto Fagundes"@pt-BR;
+  dc:name "Pedro Ernesto Fagundes"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailAlternativoPessoa "pefagundes@uol.com.br";
+  foaf:mbox "pefagundes@uol.com.br";
+  pext:hasEMail "pefagundes@uol.com.br"^^xsd:anyURI;
+  km4c:alternativeEmail "pefagundes@uol.com.br";
+  :cpfPessoa "PES0023";
+  dc:identifier "PES0023";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-1419-1130"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-1419-1130"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/4463264638076544"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/4463264638076544"^^xsd:anyURI .
+
+data:PES0024 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Ronald Tavares Leão Moret"@pt-BR;
+  foaf:name "Ronald Tavares Leão Moret"@pt-BR;
+  dc:name "Ronald Tavares Leão Moret"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "leao.moret@gmail.com";
+  foaf:mbox "leao.moret@gmail.com";
+  pext:hasEMail "leao.moret@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "leao.moret@gmail.com";
+  :cpfPessoa "PES0024";
+  dc:identifier "PES0024";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/4569233976069788"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/4569233976069788"^^xsd:anyURI .
+
+data:PES0025 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Rosa da Penha Ferreira da Costa"@pt-BR;
+  foaf:name "Rosa da Penha Ferreira da Costa"@pt-BR;
+  dc:name "Rosa da Penha Ferreira da Costa"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "rosa.costa@ufes.br";
+  foaf:mbox "rosa.costa@ufes.br", "rosapenha2012@gmail.com";
+  pext:hasEMail "rosa.costa@ufes.br", "rosapenha2012@gmail.com"^^xsd:anyURI;
+  :emailAlternativoPessoa "rosapenha2012@gmail.com";
+  km4c:alternativeEmail "rosapenha2012@gmail.com";
+  :cpfPessoa "PES0025";
+  dc:identifier "PES0025";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0001-5383-6723"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0001-5383-6723"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/3409664107216795"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/3409664107216795"^^xsd:anyURI .
+
+data:PES0026 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Rosemery Araujo Xavier"@pt-BR;
+  foaf:name "Rosemery Araujo Xavier"@pt-BR;
+  dc:name "Rosemery Araujo Xavier"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "raraujoxavier@gmail.com";
+  foaf:mbox "raraujoxavier@gmail.com";
+  pext:hasEMail "raraujoxavier@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "raraujoxavier@gmail.com";
+  :cpfPessoa "PES0026";
+  dc:identifier "PES0026";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/3857395885903364"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/3857395885903364"^^xsd:anyURI .
+
+data:PES0027 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Rosilda Adelaide Rufo"@pt-BR;
+  foaf:name "Rosilda Adelaide Rufo"@pt-BR;
+  dc:name "Rosilda Adelaide Rufo"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "rosildinha@hotmail.com";
+  foaf:mbox "rosildinha@hotmail.com";
+  pext:hasEMail "rosildinha@hotmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "rosildinha@hotmail.com";
+  :cpfPessoa "PES0027";
+  dc:identifier "PES0027";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-0431-6366"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-0431-6366"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/8454320198521389"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/8454320198521389"^^xsd:anyURI .
+
+data:PES0028 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Taiguara Villela Aldabalde"@pt-BR;
+  foaf:name "Taiguara Villela Aldabalde"@pt-BR;
+  dc:name "Taiguara Villela Aldabalde"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "taiguara.aldabalde@ufes.br";
+  foaf:mbox "taiguara.aldabalde@ufes.br", "gnose888@gmail.com";
+  pext:hasEMail "taiguara.aldabalde@ufes.br", "gnose888@gmail.com"^^xsd:anyURI;
+  :emailAlternativoPessoa "gnose888@gmail.com";
+  km4c:alternativeEmail "gnose888@gmail.com";
+  :cpfPessoa "PES0028";
+  dc:identifier "PES0028";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/5623964456964265"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/5623964456964265"^^xsd:anyURI .
+
+data:PES0029 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Tânia Barbosa Salles Gava"@pt-BR;
+  foaf:name "Tânia Barbosa Salles Gava"@pt-BR;
+  dc:name "Tânia Barbosa Salles Gava"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0029";
+  dc:identifier "PES0029";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/0822963734544353"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/0822963734544353"^^xsd:anyURI .
+
+data:PES0030 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Vânia Célia de Oliveira"@pt-BR;
+  foaf:name "Vânia Célia de Oliveira"@pt-BR;
+  dc:name "Vânia Célia de Oliveira"@pt-BR;
+  :funcaoPessoa "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  bibframe:role "discente"@pt-BR, "student"@en, "study", "http://www.wikidata.org/entity/Q48282"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Aluno"^^xsd:anyURI;
+  :emailAlternativoPessoa "vania.coliver@yahoo.com.br";
+  foaf:mbox "vania.coliver@yahoo.com.br";
+  pext:hasEMail "vania.coliver@yahoo.com.br"^^xsd:anyURI;
+  km4c:alternativeEmail "vania.coliver@yahoo.com.br";
+  :cpfPessoa "PES0030";
+  dc:identifier "PES0030";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/1361068376843428"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/1361068376843428"^^xsd:anyURI .
+
+data:PES0031 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Anna Carla Almeida Mariz"@pt-BR;
+  foaf:name "Anna Carla Almeida Mariz"@pt-BR;
+  dc:name "Anna Carla Almeida Mariz"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0031";
+  dc:identifier "PES0031";
+  :UNIRIO "UNIRIO";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/3542831487060438"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/3542831487060438"^^xsd:anyURI .
+
+data:PES0032 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Clóvis Ricardo Montenegro de Lima"@pt-BR;
+  foaf:name "Clóvis Ricardo Montenegro de Lima"@pt-BR;
+  dc:name "Clóvis Ricardo Montenegro de Lima"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0032";
+  dc:identifier "PES0032";
+  :UFSC "UFSC";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/4727891485011869"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/4727891485011869"^^xsd:anyURI .
+
+data:PES0033 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Dalton Lopes Martins"@pt-BR;
+  foaf:name "Dalton Lopes Martins"@pt-BR;
+  dc:name "Dalton Lopes Martins"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailAlternativoPessoa "dmartins@gmail.com";
+  foaf:mbox "dmartins@gmail.com";
+  pext:hasEMail "dmartins@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "dmartins@gmail.com";
+  :cpfPessoa "PES0033";
+  dc:identifier "PES0033";
+  :UnB "UnB";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-6244-6791"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-6244-6791"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/3774617443225038"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/3774617443225038"^^xsd:anyURI .
+
+data:PES0034 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Daniella Camara Pizarro"@pt-BR;
+  foaf:name "Daniella Camara Pizarro"@pt-BR;
+  dc:name "Daniella Camara Pizarro"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0034";
+  dc:identifier "PES0034";
+  :UDESC "UDESC";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0003-3544-8529"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0003-3544-8529"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/9018524527620180"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/9018524527620180"^^xsd:anyURI .
+
+data:PES0035 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "David Baião Nemer"@pt-BR;
+  foaf:name "David Baião Nemer"@pt-BR;
+  dc:name "David Baião Nemer"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailInstitucionalPessoa "nemer@virginia.edu";
+  foaf:mbox "nemer@virginia.edu";
+  pext:hasEMail "nemer@virginia.edu";
+  :cpfPessoa "PES0035";
+  dc:identifier "PES0035";
+  :UVA "UVA";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0001-8423-3917"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0001-8423-3917"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/9210948487379364"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/9210948487379364"^^xsd:anyURI .
+
+data:PES0036 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Elimar Ponzzo Dutra Leal"@pt-BR;
+  foaf:name "Elimar Ponzzo Dutra Leal"@pt-BR;
+  dc:name "Elimar Ponzzo Dutra Leal"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0036";
+  dc:identifier "PES0036";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-0100-0833"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-0100-0833"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/5177454232177003"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/5177454232177003"^^xsd:anyURI .
+
+data:PES0037 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Fabrício Martins Mendonça"@pt-BR;
+  foaf:name "Fabrício Martins Mendonça"@pt-BR;
+  dc:name "Fabrício Martins Mendonça"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailAlternativoPessoa "fabriciommendonca@gmail.com";
+  foaf:mbox "fabriciommendonca@gmail.com";
+  pext:hasEMail "fabriciommendonca@gmail.com"^^xsd:anyURI;
+  km4c:alternativeEmail "fabriciommendonca@gmail.com";
+  :cpfPessoa "PES0037";
+  dc:identifier "PES0037";
+  :UFJF "UFJF";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/7587726616949092"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/7587726616949092"^^xsd:anyURI .
+
+data:PES0038 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Fernando Luiz Vechiato"@pt-BR;
+  foaf:name "Fernando Luiz Vechiato"@pt-BR;
+  dc:name "Fernando Luiz Vechiato"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0038";
+  dc:identifier "PES0038";
+  :UFRN "UFRN";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/1727550604163016"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/1727550604163016"^^xsd:anyURI .
+
+data:PES0039 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Luzia Zorzal"@pt-BR;
+  foaf:name "Luzia Zorzal"@pt-BR;
+  dc:name "Luzia Zorzal"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0039";
+  dc:identifier "PES0039";
+  :UFES "UFES";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/8889185856737913"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/8889185856737913"^^xsd:anyURI .
+
+data:PES0040 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Neusa Balbina de Souza"@pt-BR;
+  foaf:name "Neusa Balbina de Souza"@pt-BR;
+  dc:name "Neusa Balbina de Souza"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0040";
+  dc:identifier "PES0040";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-0254-1842"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-0254-1842"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/8619170123781914"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/8619170123781914"^^xsd:anyURI .
+
+data:PES0041 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Oswaldo Francisco de Almeida Júnior"@pt-BR;
+  foaf:name "Oswaldo Francisco de Almeida Júnior"@pt-BR;
+  dc:name "Oswaldo Francisco de Almeida Júnior"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0041";
+  dc:identifier "PES0041";
+  :UNESP "UNESP";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0003-3629-7435"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0003-3629-7435"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/1049186978910803"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/1049186978910803"^^xsd:anyURI .
+
+data:PES0042 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Rodrigo Moreno Marques"@pt-BR;
+  foaf:name "Rodrigo Moreno Marques"@pt-BR;
+  dc:name "Rodrigo Moreno Marques"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0042";
+  dc:identifier "PES0042";
+  :UFMG "UFMG";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-6320-4874"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-6320-4874"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/4390865555343440"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/4390865555343440"^^xsd:anyURI .
+
+data:PES0043 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Sueli Bortolin"@pt-BR;
+  foaf:name "Sueli Bortolin"@pt-BR;
+  dc:name "Sueli Bortolin"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0043";
+  dc:identifier "PES0043";
+  :UEL "UEL";
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/9391057804931698"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/9391057804931698"^^xsd:anyURI .
+
+data:PES0044 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Helen de Castro Silva Casarin"@pt-BR;
+  foaf:name "Helen de Castro Silva Casarin"@pt-BR;
+  dc:name "Helen de Castro Silva Casarin"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0044";
+  dc:identifier "PES0044";
+  :UNESP "UNESP";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-3997-9207"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-3997-9207"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/0592809928580900"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/0592809928580900"^^xsd:anyURI .
+
+data:PES0045 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Adriana Rosecler Alcará Engelmann"@pt-BR;
+  foaf:name "Adriana Rosecler Alcará Engelmann"@pt-BR;
+  dc:name "Adriana Rosecler Alcará Engelmann"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0045";
+  dc:identifier "PES0045";
+  :UEL "UEL";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0003-4639-0967"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0003-4639-0967"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/3588218110877458"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/3588218110877458"^^xsd:anyURI .
+
+data:PES0046 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Brisa Pozzi Sousa"@pt-BR;
+  foaf:name "Brisa Pozzi Sousa"@pt-BR;
+  dc:name "Brisa Pozzi Sousa"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :emailAlternativoPessoa "brisa.pozzi@unirio.br";
+  foaf:mbox "brisa.pozzi@unirio.br";
+  pext:hasEMail "brisa.pozzi@unirio.br"^^xsd:anyURI;
+  km4c:alternativeEmail "brisa.pozzi@unirio.br";
+  :cpfPessoa "PES0046";
+  dc:identifier "PES0046";
+  :UNIRIO "UNIRIO";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-0298-8759"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-0298-8759"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/0063501372958634"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/0063501372958634"^^xsd:anyURI .
+
+data:PES0047 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Aparecido José Cirillo"@pt-BR;
+  foaf:name "Aparecido José Cirillo"@pt-BR;
+  dc:name "Aparecido José Cirillo"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0047";
+  dc:identifier "PES0047";
+  :UFES "UFES";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0001-6864-3553"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0001-6864-3553"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/6252535690546666"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/6252535690546666"^^xsd:anyURI .
+
+data:PES0048 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Georgete Medleg Rodrigues"@pt-BR;
+  foaf:name "Georgete Medleg Rodrigues"@pt-BR;
+  dc:name "Georgete Medleg Rodrigues"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0048";
+  dc:identifier "PES0048";
+  :UnB "UnB";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0002-6446-6171"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0002-6446-6171"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/3170566653824541"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/3170566653824541"^^xsd:anyURI .
+
+data:PES0049 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Daniel Flores"@pt-BR;
+  foaf:name "Daniel Flores"@pt-BR;
+  dc:name "Daniel Flores"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0049";
+  dc:identifier "PES0049";
+  :UFF "UFF";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0001-8888-2834"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0001-8888-2834"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/9640543272532398"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/9640543272532398"^^xsd:anyURI .
+
+data:PES0050 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Inez Terezinha Stampa"@pt-BR;
+  foaf:name "Inez Terezinha Stampa"@pt-BR;
+  dc:name "Inez Terezinha Stampa"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0050";
+  dc:identifier "PES0050";
+  :PUC-Rio "PUC-Rio";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0003-3770-1129"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0003-3770-1129"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/5520264426241131"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/5520264426241131"^^xsd:anyURI .
+
+data:PES0051 a owl:NamedIndividual, schema:Person, :Pessoa, :PessoaInstitucionalizada,
+    scoro:EducationalRole, whois:academicCareer;
+  :nomePessoa "Vania Cristina Pires Nogueira Valente"@pt-BR;
+  foaf:name "Vania Cristina Pires Nogueira Valente"@pt-BR;
+  dc:name "Vania Cristina Pires Nogueira Valente"@pt-BR;
+  :funcaoPessoa "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  bibframe:role "docente"@pt-BR, "university teacher"@en, "teaching", "http://www.wikidata.org/entity/Q37226"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Professor"^^xsd:anyURI;
+  :cpfPessoa "PES0051";
+  dc:identifier "PES0051";
+  :UNESP "UNESP";
+  :orcidPessoaInstitucionalizada "https://orcid.org/0000-0001-6563-2402"^^xsd:anyURI;
+  scoro:hasORCID "https://orcid.org/0000-0001-6563-2402"^^xsd:anyURI;
+  :lattesPessoaInstitucionalizada "http://lattes.cnpq.br/8962021573218552"^^xsd:anyURI;
+  <http://purl.org/cerif/frapohasCurriculumVitae> "http://lattes.cnpq.br/8962021573218552"^^xsd:anyURI .
