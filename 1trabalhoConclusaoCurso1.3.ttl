@@ -1,0 +1,398 @@
+@base <http://dados.ufes.br/tcc/data#> .
+@prefix data: <http://dados.ufes.br/tcc/data#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix : <http://dados.ufes.br/tcc/onto#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix schema: <http://schema.org/> .
+@prefix frbrer: <http://iflastandards.info/ns/fr/frbr/frbrer/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
+
+data:PVC0001 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "Biblioteca prisional"@pt-BR, "Remição de pena"@pt-BR,
+    "Pena-prisão"@pt-BR, """Sistema prisional
+do Espírito Santo"""@pt-BR, "Bibliotecário"@pt-BR;
+  :termoInglesPalavraChave "Prison library"@en, "Remission of penalty"@en, "Prison sentence"@en,
+    "Espírito Santo prison system"@en, "Librarian"@en;
+  fabio:keyword "Biblioteca prisional"@pt-BR, "Remição de pena"@pt-BR, "Pena-prisão"@pt-BR,
+    """Sistema prisional
+do Espírito Santo"""@pt-BR, "Bibliotecário"@pt-BR, "Prison library"@en,
+    "Remission of penalty"@en, "Prison sentence"@en, "Espírito Santo prison system"@en,
+    "Librarian"@en;
+  schema:keywords "Biblioteca prisional"@pt-BR, "Remição de pena"@pt-BR, "Pena-prisão"@pt-BR,
+    """Sistema prisional
+do Espírito Santo"""@pt-BR, "Bibliotecário"@pt-BR, "Prison library"@en,
+    "Remission of penalty"@en, "Prison sentence"@en, "Espírito Santo prison system"@en,
+    "Librarian"@en .
+
+data:DOC0001 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0001";
+  schema:keywords "PVC0001";
+  fabio:keyword "PVC0001" .
+
+data:PES0001 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0002 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "Biblioteca universitária"@pt-BR, "Trabalho colaborativo"@pt-BR,
+    "Biblioteca – espaço de aprendizagem"@pt-BR, "Bibliotecário educador"@pt-BR, "Proknow-C"@pt-BR;
+  :termoInglesPalavraChave "University library"@en, "Collaborative work"@en, "Library – learning space"@en,
+    "Educator librarian"@en, "Proknow-C"@en;
+  fabio:keyword "Biblioteca universitária"@pt-BR, "Trabalho colaborativo"@pt-BR, "Biblioteca – espaço de aprendizagem"@pt-BR,
+    "Bibliotecário educador"@pt-BR, "Proknow-C"@pt-BR, "University library"@en, "Collaborative work"@en,
+    "Library – learning space"@en, "Educator librarian"@en, "Proknow-C"@en;
+  schema:keywords "Biblioteca universitária"@pt-BR, "Trabalho colaborativo"@pt-BR, "Biblioteca – espaço de aprendizagem"@pt-BR,
+    "Bibliotecário educador"@pt-BR, "Proknow-C"@pt-BR, "University library"@en, "Collaborative work"@en,
+    "Library – learning space"@en, "Educator librarian"@en, "Proknow-C"@en .
+
+data:DOC0002 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0002";
+  schema:keywords "PVC0002";
+  fabio:keyword "PVC0002" .
+
+data:PES0002 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0003 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "Dados Abertos Governamentais"@pt-BR, "Organização da Informação"@pt-BR,
+    "Modelo de Governança"@pt-BR, "Qualidade de Dados"@pt-BR;
+  :termoInglesPalavraChave "Open Government Data"@en, "Information Organization"@en,
+    "Governance Model"@en, "Data Quality"@en;
+  fabio:keyword "Dados Abertos Governamentais"@pt-BR, "Organização da Informação"@pt-BR,
+    "Modelo de Governança"@pt-BR, "Qualidade de Dados"@pt-BR, "Open Government Data"@en,
+    "Information Organization"@en, "Governance Model"@en, "Data Quality"@en;
+  schema:keywords "Dados Abertos Governamentais"@pt-BR, "Organização da Informação"@pt-BR,
+    "Modelo de Governança"@pt-BR, "Qualidade de Dados"@pt-BR, "Open Government Data"@en,
+    "Information Organization"@en, "Governance Model"@en, "Data Quality"@en .
+
+data:DOC0003 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0003";
+  schema:keywords "PVC0003";
+  fabio:keyword "PVC0003" .
+
+data:PES0004 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0004 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "regimes de informação"@pt-BR, "sociomaterialidade"@pt-BR,
+    "artefatos"@pt-BR;
+  :termoInglesPalavraChave "regimen of information"@en, "sociomateriality"@en, "artifacts"@en;
+  fabio:keyword "regimes de informação"@pt-BR, "sociomaterialidade"@pt-BR, "artefatos"@pt-BR,
+    "regimen of information"@en, "sociomateriality"@en, "artifacts"@en;
+  schema:keywords "regimes de informação"@pt-BR, "sociomaterialidade"@pt-BR, "artefatos"@pt-BR,
+    "regimen of information"@en, "sociomateriality"@en, "artifacts"@en .
+
+data:DOC0004 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0004";
+  schema:keywords "PVC0004";
+  fabio:keyword "PVC0004" .
+
+data:PES0005 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0005 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "Rede de biblioteca escolar de Vila Velha/ES"@pt-BR, "Coordenação de redes de bibliotecas"@pt-BR,
+    "Redes de cooperação e colaboração bibliotecária"@pt-BR, "Rede organizacional e pedagógica"@pt-BR,
+    "Gestão em biblioteca escolar"@pt-BR;
+  :termoInglesPalavraChave "School library network in Vila Velha/ES"@en, "Coordination of library networks"@en,
+    "Library cooperation and collaboration networks"@en, "Organizational and pedagogical network"@en,
+    "Management in school library"@en;
+  fabio:keyword "Rede de biblioteca escolar de Vila Velha/ES"@pt-BR, "Coordenação de redes de bibliotecas"@pt-BR,
+    "Redes de cooperação e colaboração bibliotecária"@pt-BR, "Rede organizacional e pedagógica"@pt-BR,
+    "Gestão em biblioteca escolar"@pt-BR, "School library network in Vila Velha/ES"@en,
+    "Coordination of library networks"@en, "Library cooperation and collaboration networks"@en,
+    "Organizational and pedagogical network"@en, "Management in school library"@en;
+  schema:keywords "Rede de biblioteca escolar de Vila Velha/ES"@pt-BR, "Coordenação de redes de bibliotecas"@pt-BR,
+    "Redes de cooperação e colaboração bibliotecária"@pt-BR, "Rede organizacional e pedagógica"@pt-BR,
+    "Gestão em biblioteca escolar"@pt-BR, "School library network in Vila Velha/ES"@en,
+    "Coordination of library networks"@en, "Library cooperation and collaboration networks"@en,
+    "Organizational and pedagogical network"@en, "Management in school library"@en .
+
+data:DOC0005 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0005";
+  schema:keywords "PVC0005";
+  fabio:keyword "PVC0005" .
+
+data:PES0006 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0006 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "Arquivística"@pt-BR, "Arquivo Municipal"@pt-BR, "Ensino Fundamental"@pt-BR,
+    "Mediação cultural"@pt-BR, "Mediação da informação"@pt-BR, "Arquivo Público"@pt-BR;
+  :termoInglesPalavraChave "Archivistics"@en, "Municipal Archive"@en, "Elementary School"@en,
+    "Cultural Mediation"@en, "Information Mediation"@en, "Public Archive"@en;
+  fabio:keyword "Arquivística"@pt-BR, "Arquivo Municipal"@pt-BR, "Ensino Fundamental"@pt-BR,
+    "Mediação cultural"@pt-BR, "Mediação da informação"@pt-BR, "Arquivo Público"@pt-BR,
+    "Archivistics"@en, "Municipal Archive"@en, "Elementary School"@en, "Cultural Mediation"@en,
+    "Information Mediation"@en, "Public Archive"@en;
+  schema:keywords "Arquivística"@pt-BR, "Arquivo Municipal"@pt-BR, "Ensino Fundamental"@pt-BR,
+    "Mediação cultural"@pt-BR, "Mediação da informação"@pt-BR, "Arquivo Público"@pt-BR,
+    "Archivistics"@en, "Municipal Archive"@en, "Elementary School"@en, "Cultural Mediation"@en,
+    "Information Mediation"@en, "Public Archive"@en .
+
+data:DOC0006 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0006";
+  schema:keywords "PVC0006";
+  fabio:keyword "PVC0006" .
+
+data:PES0007 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC007 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "documento"@pt-BR, "memória"@pt-BR, "negacionismo"@pt-BR,
+    "desinformação"@pt-BR, "ditadura militar brasileira"@pt-BR, "pós-verdade"@pt-BR, "Brasil Paralelo"@pt-BR;
+  :termoInglesPalavraChave "document"@en, "memory"@en, "negationism"@en, "disinformation"@en,
+    "brazilian military dictatorship"@en, "post-truth"@en, "Brasil Paralelo"@en;
+  fabio:keyword "documento"@pt-BR, "memória"@pt-BR, "negacionismo"@pt-BR, "desinformação"@pt-BR,
+    "ditadura militar brasileira"@pt-BR, "pós-verdade"@pt-BR, "Brasil Paralelo"@pt-BR,
+    "document"@en, "memory"@en, "negationism"@en, "disinformation"@en, "brazilian military dictatorship"@en,
+    "post-truth"@en, "Brasil Paralelo"@en;
+  schema:keywords "documento"@pt-BR, "memória"@pt-BR, "negacionismo"@pt-BR, "desinformação"@pt-BR,
+    "ditadura militar brasileira"@pt-BR, "pós-verdade"@pt-BR, "Brasil Paralelo"@pt-BR,
+    "document"@en, "memory"@en, "negationism"@en, "disinformation"@en, "brazilian military dictatorship"@en,
+    "post-truth"@en, "Brasil Paralelo"@en .
+
+data:DOC0007 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC007";
+  schema:keywords "PVC007";
+  fabio:keyword "PVC007" .
+
+data:PES0008 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0008 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "biblioteca pública"@pt-BR, "invisibilidade"@pt-BR, "neoliberalismo"@pt-BR,
+    "esfera pública"@pt-BR, "agir comunicativo"@pt-BR;
+  :termoInglesPalavraChave "public Library"@en, "invisibility"@en, "neoliberalism"@en,
+    "public sphere"@en, "act communicative"@en;
+  fabio:keyword "biblioteca pública"@pt-BR, "invisibilidade"@pt-BR, "neoliberalismo"@pt-BR,
+    "esfera pública"@pt-BR, "agir comunicativo"@pt-BR, "public Library"@en, "invisibility"@en,
+    "neoliberalism"@en, "public sphere"@en, "act communicative"@en;
+  schema:keywords "biblioteca pública"@pt-BR, "invisibilidade"@pt-BR, "neoliberalismo"@pt-BR,
+    "esfera pública"@pt-BR, "agir comunicativo"@pt-BR, "public Library"@en, "invisibility"@en,
+    "neoliberalism"@en, "public sphere"@en, "act communicative"@en .
+
+data:DOC0008 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0008";
+  schema:keywords "PVC0008";
+  fabio:keyword "PVC0008" .
+
+data:PES0009 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0009 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "Fotografia"@pt-BR, "memória"@pt-BR, "memória institucional"@pt-BR,
+    "Instituto Federal do Espírito Santo"@pt-BR;
+  :termoInglesPalavraChave "Photography"@en, "memory"@en, "institutional memory"@en,
+    "Federal Institute of Espírito Santo"@en;
+  fabio:keyword "Fotografia"@pt-BR, "memória"@pt-BR, "memória institucional"@pt-BR,
+    "Instituto Federal do Espírito Santo"@pt-BR, "Photography"@en, "memory"@en, "institutional memory"@en,
+    "Federal Institute of Espírito Santo"@en;
+  schema:keywords "Fotografia"@pt-BR, "memória"@pt-BR, "memória institucional"@pt-BR,
+    "Instituto Federal do Espírito Santo"@pt-BR, "Photography"@en, "memory"@en, "institutional memory"@en,
+    "Federal Institute of Espírito Santo"@en .
+
+data:DOC0009 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0009";
+  schema:keywords "PVC0009";
+  fabio:keyword "PVC0009" .
+
+data:PES0012 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0010 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "Acesso à informação"@pt-BR, "Gestão da Informação"@pt-BR,
+    "Fluxo de informação"@pt-BR, "Records Continuum"@pt-BR;
+  :termoInglesPalavraChave "Access to information"@en, "Information management"@en,
+    "Information flow"@en, "Records Continuum"@en;
+  fabio:keyword "Acesso à informação"@pt-BR, "Gestão da Informação"@pt-BR, "Fluxo de informação"@pt-BR,
+    "Records Continuum"@pt-BR, "Access to information"@en, "Information management"@en,
+    "Information flow"@en, "Records Continuum"@en;
+  schema:keywords "Acesso à informação"@pt-BR, "Gestão da Informação"@pt-BR, "Fluxo de informação"@pt-BR,
+    "Records Continuum"@pt-BR, "Access to information"@en, "Information management"@en,
+    "Information flow"@en, "Records Continuum"@en .
+
+data:DOC0010 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0010";
+  schema:keywords "PVC0010";
+  fabio:keyword "PVC0010" .
+
+data:PES0013 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0011 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "Práticas informacionais"@pt-BR, "Travesti"@pt-BR, "Identidade de gênero"@pt-BR,
+    "LGBTQIA+"@pt-BR;
+  :termoInglesPalavraChave "Informational practices"@en, "Transvestite"@en, "Gender identity"@en,
+    "LGBTQIA+"@en;
+  fabio:keyword "Práticas informacionais"@pt-BR, "Travesti"@pt-BR, "Identidade de gênero"@pt-BR,
+    "LGBTQIA+"@pt-BR, "Informational practices"@en, "Transvestite"@en, "Gender identity"@en,
+    "LGBTQIA+"@en;
+  schema:keywords "Práticas informacionais"@pt-BR, "Travesti"@pt-BR, "Identidade de gênero"@pt-BR,
+    "LGBTQIA+"@pt-BR, "Informational practices"@en, "Transvestite"@en, "Gender identity"@en,
+    "LGBTQIA+"@en .
+
+data:DOC0011 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0011";
+  schema:keywords "PVC0011";
+  fabio:keyword "PVC0011" .
+
+data:PES0017 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0012 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "Usos sociais da informação"@pt-BR, "Mediação da informação"@pt-BR,
+    "Minorias Sociais"@pt-BR, "Protagonismo social"@pt-BR;
+  :termoInglesPalavraChave "Social uses of information"@en, "Information mediation"@en,
+    "Social Minorities"@en, "Social protagonism"@en;
+  fabio:keyword "Usos sociais da informação"@pt-BR, "Mediação da informação"@pt-BR,
+    "Minorias Sociais"@pt-BR, "Protagonismo social"@pt-BR, "Social uses of information"@en,
+    "Information mediation"@en, "Social Minorities"@en, "Social protagonism"@en;
+  schema:keywords "Usos sociais da informação"@pt-BR, "Mediação da informação"@pt-BR,
+    "Minorias Sociais"@pt-BR, "Protagonismo social"@pt-BR, "Social uses of information"@en,
+    "Information mediation"@en, "Social Minorities"@en, "Social protagonism"@en .
+
+data:DOC0012 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0012";
+  schema:keywords "PVC0012";
+  fabio:keyword "PVC0012" .
+
+data:PES0021 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0013 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "Barragem de Fundão"@pt-BR, "Bento Rodrigues"@pt-BR, "Fundação Renova"@pt-BR,
+    "Memória"@pt-BR, "Paracatu de Baixo"@pt-BR, "Patrimônio Cultural Material"@pt-BR,
+    "Preservação"@pt-BR;
+  :termoInglesPalavraChave "Barragem de Fundão"@en, "Bento Rodrigues"@en, "Fundação Renova"@en,
+    "Memory"@en, "Paracatu de Baixo"@en, "Material Cultural Heritage"@en, "Preservation"@en;
+  fabio:keyword "Barragem de Fundão"@pt-BR, "Bento Rodrigues"@pt-BR, "Fundação Renova"@pt-BR,
+    "Memória"@pt-BR, "Paracatu de Baixo"@pt-BR, "Patrimônio Cultural Material"@pt-BR,
+    "Preservação"@pt-BR, "Barragem de Fundão"@en, "Bento Rodrigues"@en, "Fundação Renova"@en,
+    "Memory"@en, "Paracatu de Baixo"@en, "Material Cultural Heritage"@en, "Preservation"@en;
+  schema:keywords "Barragem de Fundão"@pt-BR, "Bento Rodrigues"@pt-BR, "Fundação Renova"@pt-BR,
+    "Memória"@pt-BR, "Paracatu de Baixo"@pt-BR, "Patrimônio Cultural Material"@pt-BR,
+    "Preservação"@pt-BR, "Barragem de Fundão"@en, "Bento Rodrigues"@en, "Fundação Renova"@en,
+    "Memory"@en, "Paracatu de Baixo"@en, "Material Cultural Heritage"@en, "Preservation"@en .
+
+data:DOC0013 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0013";
+  schema:keywords "PVC0013";
+  fabio:keyword "PVC0013" .
+
+data:PES0022 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0014 a owl:NamedIndividual, sio:SIO_000147 .
+
+data:DOC0014 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0014";
+  schema:keywords "PVC0014";
+  fabio:keyword "PVC0014" .
+
+data:PES0024 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0015 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "preservação digital"@pt-BR, "preservação digital sistêmica"@pt-BR,
+    "Modelo Oais"@pt-BR, "RDC-Arq"@pt-BR, "interoperabilidade"@pt-BR;
+  :termoInglesPalavraChave "digital preservation"@en, "systemic digital preservation"@en,
+    "Oais model"@en, "RDC-Arq"@en, "interoperability"@en;
+  fabio:keyword "preservação digital"@pt-BR, "preservação digital sistêmica"@pt-BR,
+    "Modelo Oais"@pt-BR, "RDC-Arq"@pt-BR, "interoperabilidade"@pt-BR, "digital preservation"@en,
+    "systemic digital preservation"@en, "Oais model"@en, "RDC-Arq"@en, "interoperability"@en;
+  schema:keywords "preservação digital"@pt-BR, "preservação digital sistêmica"@pt-BR,
+    "Modelo Oais"@pt-BR, "RDC-Arq"@pt-BR, "interoperabilidade"@pt-BR, "digital preservation"@en,
+    "systemic digital preservation"@en, "Oais model"@en, "RDC-Arq"@en, "interoperability"@en .
+
+data:DOC0015 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0015";
+  schema:keywords "PVC0015";
+  fabio:keyword "PVC0015" .
+
+data:PES0026 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0016 a owl:NamedIndividual, sio:SIO_000147;
+  :termoPortuguesPalavraChave "Memória Social"@pt-BR, "Ditadura Militar"@pt-BR, "Arquivo Público"@pt-BR,
+    "Memórias Reveladas"@pt-BR, "Ciência da Informação"@pt-BR;
+  :termoInglesPalavraChave "Social Memory"@en, "Military dictatorship"@en, "Public Archive"@en,
+    "Memories Revealed"@en, "information Science"@en;
+  fabio:keyword "Memória Social"@pt-BR, "Ditadura Militar"@pt-BR, "Arquivo Público"@pt-BR,
+    "Memórias Reveladas"@pt-BR, "Ciência da Informação"@pt-BR, "Social Memory"@en, "Military dictatorship"@en,
+    "Public Archive"@en, "Memories Revealed"@en, "information Science"@en;
+  schema:keywords "Memória Social"@pt-BR, "Ditadura Militar"@pt-BR, "Arquivo Público"@pt-BR,
+    "Memórias Reveladas"@pt-BR, "Ciência da Informação"@pt-BR, "Social Memory"@en, "Military dictatorship"@en,
+    "Public Archive"@en, "Memories Revealed"@en, "information Science"@en .
+
+data:DOC0016 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0016";
+  schema:keywords "PVC0016";
+  fabio:keyword "PVC0016" .
+
+data:PES0027 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .
+
+data:PVC0017 a owl:NamedIndividual, sio:SIO_000147 .
+
+data:DOC0017 a :TrabalhoConclusaoCurso, schema:Thesis, fabio:ScholarlyWork, frbrer:C1004,
+    dbpedia:Trabalho_de_conclusão_de_curso;
+  :compostoPorPalavraChave "PVC0017";
+  schema:keywords "PVC0017";
+  fabio:keyword "PVC0017" .
+
+data:PES0030 a owl:NamedIndividual, :PessoaInstitucionalizada;
+  :associadaIES "INS0002";
+  rico:teachingRelationHasSource "INS0002";
+  bibframe:grantingInstitution "INS0002" .

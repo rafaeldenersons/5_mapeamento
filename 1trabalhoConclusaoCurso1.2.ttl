@@ -1,0 +1,195 @@
+@base <http://dados.ufes.br/tcc/data#> .
+@prefix : <http://dados.ufes.br/tcc/onto#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wdo: <http://www.wikidata.org/ontology#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix data: <http://dados.ufes.br/tcc/data#> .
+@prefix sro: <http://salt.semanticauthoring.org/ontologies/sro#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix ptop: <http://www.ontotext.com/proton/protontop#> .
+@prefix scoro: <http://purl.org/spar/scoro/> .
+@prefix sur: <https://w3id.org/survey-ontology#> .
+@prefix cwmo: <http://purl.org/cwmo/#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+
+data:Q16387 a owl:NamedIndividual, wdo:Q600134, schema:Course, :CursoPosGraduacao;
+  :nomeCursoPosGraduacao "Ciência da Informação"@pt-BR, "information science"@en, "http://www.wikidata.org/entity/Q16387"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Ci%C3%AAncia_da_informa%C3%A7%C3%A3o"^^xsd:anyURI;
+  dc:title "Ciência da Informação"@pt-BR, "information science"@en, "http://www.wikidata.org/entity/Q16387"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Ci%C3%AAncia_da_informa%C3%A7%C3%A3o"^^xsd:anyURI;
+  teach:courseTitle "Ciência da Informação"@pt-BR, "information science"@en, "http://www.wikidata.org/entity/Q16387"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Ci%C3%AAncia_da_informa%C3%A7%C3%A3o"^^xsd:anyURI .
+
+data:Q183816 a owl:NamedIndividual, wdo:Q4218455, wdo:Q18189, wdo:Q189533, wdo:Q26269989,
+    :Mestrado .
+
+data:DEF0001 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2022-06-15T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2022-06-15T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2022-06-15T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0001";
+  dc:identifier "DEF0001";
+  :referenteTCC data:DEF0001 .
+
+data:DEF0002 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2022-03-16T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2022-03-16T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2022-03-16T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0002";
+  dc:identifier "DEF0002";
+  :referenteTCC data:DEF0002 .
+
+data:DEF0003 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2021-08-10T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2021-08-10T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2021-08-10T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0003";
+  dc:identifier "DEF0003";
+  :referenteTCC data:DEF0003 .
+
+data:DEF0004 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2022-12-12T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2022-12-12T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2022-12-12T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0004";
+  dc:identifier "DEF0004";
+  :referenteTCC data:DEF0004 .
+
+data:DEF0005 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2021-06-29T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2021-06-29T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2021-06-29T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0005";
+  dc:identifier "DEF0005";
+  :referenteTCC data:DEF0005 .
+
+data:DEF0006 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2021-07-10T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2021-07-10T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2021-07-10T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0006";
+  dc:identifier "DEF0006";
+  :referenteTCC data:DEF0006 .
+
+data:PES0020 a owl:NamedIndividual, foaf:Group, scoro:EducationalRole, vivo:MemberRole .
+
+data:DEF0007 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2021-03-31T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2021-03-31T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2021-03-31T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0007";
+  dc:identifier "DEF0007";
+  :referenteTCC data:DEF0007 .
+
+data:PES0016 a owl:NamedIndividual, foaf:Group, scoro:EducationalRole, vivo:MemberRole .
+
+data:DEF0008 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2021-12-08T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2021-12-08T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2021-12-08T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0008";
+  dc:identifier "DEF0008";
+  :referenteTCC data:DEF0008 .
+
+data:PES0041 a owl:NamedIndividual, sur:Participant, cwmo:Evaluator, :ExaminadorExterno .
+
+data:DEF0009 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2022-08-30T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2022-08-30T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2022-08-30T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0009";
+  dc:identifier "DEF0009";
+  :referenteTCC data:DEF0009 .
+
+data:DEF0010 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2021-01-04T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2021-01-04T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2021-01-04T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0010";
+  dc:identifier "DEF0010";
+  :referenteTCC data:DEF0010 .
+
+data:PES0039 a owl:NamedIndividual, sur:Participant, cwmo:Evaluator, :ExaminadorExterno .
+
+data:DEF0011 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2021-08-06T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2021-08-06T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2021-08-06T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0011";
+  dc:identifier "DEF0011";
+  :referenteTCC data:DEF0011 .
+
+data:PES0045 a owl:NamedIndividual, sur:Participant, cwmo:Evaluator, :ExaminadorExterno .
+
+data:DEF0012 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2021-07-10T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2021-07-10T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2021-07-10T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0012";
+  dc:identifier "DEF0012";
+  :referenteTCC data:DEF0012 .
+
+data:DEF0013 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2021-09-30T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2021-09-30T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2021-09-30T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0013";
+  dc:identifier "DEF0013";
+  :referenteTCC data:DEF0013 .
+
+data:PES0047 a owl:NamedIndividual, sur:Participant, cwmo:Evaluator, :ExaminadorExterno .
+
+data:DEF0014 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2022-02-09T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2022-02-09T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2022-02-09T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0014";
+  dc:identifier "DEF0014";
+  :referenteTCC data:DEF0014 .
+
+data:DEF0015 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2022-08-29T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2022-08-29T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2022-08-29T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0015";
+  dc:identifier "DEF0015";
+  :referenteTCC data:DEF0015 .
+
+data:DEF0016 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2022-02-09T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2022-02-09T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2022-02-09T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0016";
+  dc:identifier "DEF0016";
+  :referenteTCC data:DEF0016 .
+
+data:PES0018 a owl:NamedIndividual, foaf:Group, scoro:EducationalRole, vivo:MemberRole .
+
+data:DEF0017 a owl:NamedIndividual, schema:EducationEvent, sro:Evaluation, sro:Discussion,
+    sro:Argument, sro:Claim;
+  :dataHoraAvaliacaoDefesa "2022-11-25T00:00:00Z"^^xsd:dateTime;
+  ptop:registeredIn "2022-11-25T00:00:00Z"^^xsd:dateTime;
+  fabio:hasDecisionDate "2022-11-25T00:00:00Z"^^xsd:dateTime;
+  :codigoDefesa "DEF0017";
+  dc:identifier "DEF0017";
+  :referenteTCC data:DEF0017 .
