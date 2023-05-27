@@ -1,0 +1,287 @@
+@base <http://dados.ufes.br/tcc/data#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix : <http://dados.ufes.br/tcc/onto#> .
+
+<https%3A//www.wikidata.org/entity/Q10387830> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20do%20Espírito%20Santo> .
+
+<http%3A//dbpedia.org/resource/Universidade_Federal_do_Espírito_Santo> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20do%20Espírito%20Santo> .
+
+<https%3A//www.wikidata.org/entity/Q168376> a owl:NamedIndividual;
+  owl:sameAs :Vitória .
+
+<https%3A//dbpedia.org/resource/Vit%25C3%25B3ria%2C_Esp%25C3%25ADrito_Santo> a owl:NamedIndividual;
+  owl:sameAs :Vitória .
+
+<https%3A//sws.geonames.org/6322000> a owl:NamedIndividual;
+  owl:sameAs :Vitória .
+
+<https%3A//www.wikidata.org/wiki/Q43233> a owl:NamedIndividual;
+  owl:sameAs <Espírito%20Santo> .
+
+<http%3A//dbpedia.org/resource/Esp%25C3%25ADrito_Santo_%28estado%29> a owl:NamedIndividual;
+  owl:sameAs <Espírito%20Santo> .
+
+<http%3A//www.geonames.org/3463930> a owl:NamedIndividual;
+  owl:sameAs <Espírito%20Santo> .
+
+<http%3A//www.wikidata.org/entity/Q155> a owl:NamedIndividual;
+  owl:sameAs <Brasil> .
+
+<http%3A//dbpedia.org/resource/Brasil> a owl:NamedIndividual;
+  owl:sameAs <Brasil> .
+
+<http%3A//www.geonames.org/3469034> a owl:NamedIndividual;
+  owl:sameAs <Brasil> .
+
+<https%3A//www.wikidata.org/entity/Q1807909> a owl:NamedIndividual;
+  owl:sameAs :Alegre .
+
+<https%3A//dbpedia.org/resource/Alegre_%28Esp%25C3%25ADrito_Santo%29> a owl:NamedIndividual;
+  owl:sameAs :Alegre .
+
+<https%3A//sws.geonames.org/6324236> a owl:NamedIndividual;
+  owl:sameAs :Alegre .
+
+<https%3A//www.wikidata.org/entity/Q1763574> a owl:NamedIndividual;
+  owl:sameAs :São%20Mateus .
+
+<https%3A//dbpedia.org/resource/São_Mateus%2C_Espírito_Santo> a owl:NamedIndividual;
+  owl:sameAs :São%20Mateus .
+
+<https%3A//sws.geonames.org/6321990> a owl:NamedIndividual;
+  owl:sameAs :São%20Mateus .
+
+<https%3A//www.wikidata.org/entity/Q10302497> a owl:NamedIndividual;
+  owl:sameAs <Instituto%20Federal%20do%20Espírito%20Santo> .
+
+<http%3A//dbpedia.org/resource/Instituto_Federal_do_Espírito_Santo> a owl:NamedIndividual;
+  owl:sameAs <Instituto%20Federal%20do%20Espírito%20Santo> .
+
+<https%3A//sws.geonames.org/6322001> a owl:NamedIndividual;
+  owl:sameAs :Vitória .
+
+<https%3A//www.wikidata.org/entity/Q1851075> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20de%20Santa%20Catarina> .
+
+<http%3A//dbpedia.org/resource/Universidade_Federal_de_Santa_Catarina> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20de%20Santa%20Catarina> .
+
+<https%3A//www.wikidata.org/entity/Q132997> a owl:NamedIndividual;
+  owl:sameAs :Florianópolis .
+
+<https%3A//dbpedia.org/resource/Florianópolis> a owl:NamedIndividual;
+  owl:sameAs :Florianópolis .
+
+<https%3A//sws.geonames.org/3463237> a owl:NamedIndividual;
+  owl:sameAs :Florianópolis .
+
+<https%3A//www.wikidata.org/wiki/Q41115> a owl:NamedIndividual;
+  owl:sameAs <Santa%20Catarina> .
+
+<http%3A//dbpedia.org/resource/Santa_Catarina> a owl:NamedIndividual;
+  owl:sameAs <Santa%20Catarina> .
+
+<http%3A//www.geonames.org/3450387> a owl:NamedIndividual;
+  owl:sameAs <Santa%20Catarina> .
+
+<https%3A//www.wikidata.org/entity/Q1330634> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20de%20Brasília> .
+
+<http%3A//dbpedia.org/resource/Universidade_de_Brasília> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20de%20Brasília> .
+
+<https%3A//www.wikidata.org/entity/Q7894373> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20de%20Juiz%20de%20Fora> .
+
+<http%3A//dbpedia.org/resource/Universidade_Federal_de_Juiz_de_Fora> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20de%20Juiz%20de%20Fora> .
+
+<https%3A//www.wikidata.org/entity/Q193019> a owl:NamedIndividual;
+  owl:sameAs :Juiz%20de%20Fora .
+
+<https%3A//dbpedia.org/resource/Juiz_de_fora> a owl:NamedIndividual;
+  owl:sameAs :Juiz%20de%20Fora .
+
+<https%3A//sws.geonames.org/3459505> a owl:NamedIndividual;
+  owl:sameAs :Juiz%20de%20Fora .
+
+<https%3A//www.wikidata.org/wiki/Q39109> a owl:NamedIndividual;
+  owl:sameAs <Minas%20Gerais> .
+
+<http%3A//dbpedia.org/resource/Minas_Gerais> a owl:NamedIndividual;
+  owl:sameAs <Minas%20Gerais> .
+
+<http%3A//www.geonames.org/3457153> a owl:NamedIndividual;
+  owl:sameAs <Minas%20Gerais> .
+
+<https%3A//www.wikidata.org/entity/Q3847505> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20do%20Rio%20Grande%20do%20Norte> .
+
+<http%3A//dbpedia.org/resource/Universidade_Federal_do_Rio_Grande_do_Norte> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20do%20Rio%20Grande%20do%20Norte> .
+
+<https%3A//www.wikidata.org/entity/Q131620> a owl:NamedIndividual;
+  owl:sameAs :Natal .
+
+<https%3A//dbpedia.org/resource/Natal_%28Rio_Grande_do_Norte%29> a owl:NamedIndividual;
+  owl:sameAs :Natal .
+
+<https%3A//sws.geonames.org/3394023> a owl:NamedIndividual;
+  owl:sameAs :Natal .
+
+<https%3A//www.wikidata.org/wiki/Q43255> a owl:NamedIndividual;
+  owl:sameAs <Rio%20Grande%20do%20Norte> .
+
+<http%3A//dbpedia.org/resource/Rio_Grande_do_Norte> a owl:NamedIndividual;
+  owl:sameAs <Rio%20Grande%20do%20Norte> .
+
+<http%3A//www.geonames.org/3390290> a owl:NamedIndividual;
+  owl:sameAs <Rio%20Grande%20do%20Norte> .
+
+<https%3A//www.wikidata.org/entity/Q132140> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20de%20Minas%20Gerais> .
+
+<http%3A//dbpedia.org/resource/Universidade_Federal_de_Minas_Gerais> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20de%20Minas%20Gerais> .
+
+<https%3A//www.wikidata.org/entity/Q42800> a owl:NamedIndividual;
+  owl:sameAs :Belo%20Horizonte .
+
+<https%3A//dbpedia.org/resource/Belo_Horizonte> a owl:NamedIndividual;
+  owl:sameAs :Belo%20Horizonte .
+
+<https%3A//sws.geonames.org/3470127> a owl:NamedIndividual;
+  owl:sameAs :Belo%20Horizonte .
+
+<https%3A//www.wikidata.org/entity/Q280247> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20Fluminense> .
+
+<http%3A//dbpedia.org/resource/Universidade_Federal_Fluminense> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20Fluminense> .
+
+<https%3A//www.wikidata.org/entity/Q178725> a owl:NamedIndividual;
+  owl:sameAs :Niterói .
+
+<https%3A//dbpedia.org/resource/Niterói> a owl:NamedIndividual;
+  owl:sameAs :Niterói .
+
+<https%3A//sws.geonames.org/3456283> a owl:NamedIndividual;
+  owl:sameAs :Niterói .
+
+<https%3A//www.wikidata.org/wiki/Q8678> a owl:NamedIndividual;
+  owl:sameAs <Rio%20de%20Janeiro> .
+
+<http%3A//dbpedia.org/resource/Rio_de_Janeiro> a owl:NamedIndividual;
+  owl:sameAs <Rio%20de%20Janeiro> .
+
+<http%3A//www.geonames.org/3451189> a owl:NamedIndividual;
+  owl:sameAs <Rio%20de%20Janeiro> .
+
+<https%3A//www.wikidata.org/entity/Q1857293> a owl:NamedIndividual;
+  owl:sameAs <Pontifícia%20Universidade%20Católica%20do%20Rio%20de%20Janeiro> .
+
+<http%3A//dbpedia.org/resource/Pontifícia_Universidade_Católica_do_Rio_de_Janeiro>
+  a owl:NamedIndividual;
+  owl:sameAs <Pontifícia%20Universidade%20Católica%20do%20Rio%20de%20Janeiro> .
+
+<https%3A//www.wikidata.org/entity/Q8678> a owl:NamedIndividual;
+  owl:sameAs :Rio%20de%20Janeiro .
+
+<https%3A//dbpedia.org/resource/Rio_de_Janeiro> a owl:NamedIndividual;
+  owl:sameAs :Rio%20de%20Janeiro .
+
+<https%3A//sws.geonames.org/3451190> a owl:NamedIndividual;
+  owl:sameAs :Rio%20de%20Janeiro .
+
+<https%3A//www.wikidata.org/entity/Q7894364> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Estadual%20de%20Londrina> .
+
+<http%3A//dbpedia.org/resource/Universidade_Estadual_de_Londrina> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Estadual%20de%20Londrina> .
+
+<https%3A//www.wikidata.org/entity/Q192387> a owl:NamedIndividual;
+  owl:sameAs :Londrina .
+
+<https%3A//dbpedia.org/resource/Londrina> a owl:NamedIndividual;
+  owl:sameAs :Londrina .
+
+<https%3A//sws.geonames.org/> a owl:NamedIndividual;
+  owl:sameAs :Londrina, :Bauru .
+
+<https%3A//www.wikidata.org/wiki/Q15499> a owl:NamedIndividual;
+  owl:sameAs <Paraná> .
+
+<http%3A//dbpedia.org/resource/Paraná> a owl:NamedIndividual;
+  owl:sameAs <Paraná> .
+
+<http%3A//www.geonames.org/3455077> a owl:NamedIndividual;
+  owl:sameAs <Paraná> .
+
+<https%3A//www.wikidata.org/entity/Q1817137> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Estadual%20Paulista> .
+
+<http%3A//dbpedia.org/resource/Universidade_Estadual_Paulista> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Estadual%20Paulista> .
+
+<https%3A//www.wikidata.org/entity/Q241645> a owl:NamedIndividual;
+  owl:sameAs :Bauru .
+
+<https%3A//dbpedia.org/resource/Bauru> a owl:NamedIndividual;
+  owl:sameAs :Bauru .
+
+<https%3A//www.wikidata.org/wiki/Q174> a owl:NamedIndividual;
+  owl:sameAs <São%20Paulo> .
+
+<http%3A//dbpedia.org/resource/São_Paulo> a owl:NamedIndividual;
+  owl:sameAs <São%20Paulo> .
+
+<http%3A//www.geonames.org/3448433> a owl:NamedIndividual;
+  owl:sameAs <São%20Paulo> .
+
+<https%3A//www.wikidata.org/entity/Q3011938> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20do%20Estado%20do%20Rio%20de%20Janeiro> .
+
+<http%3A//dbpedia.org/resource/Universidade_Federal_do_Estado_do_Rio_de_Janeiro> a
+    owl:NamedIndividual;
+  owl:sameAs <Universidade%20Federal%20do%20Estado%20do%20Rio%20de%20Janeiro> .
+
+<https%3A//www.wikidata.org/entity/Q3551702> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20do%20Estado%20de%20Santa%20Catarina> .
+
+<http%3A//dbpedia.org/resource/Universidade_do_Estado_de_Santa_Catarina> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20do%20Estado%20de%20Santa%20Catarina> .
+
+<https%3A//www.wikidata.org/entity/Q213439> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20de%20Virginia> .
+
+<http%3A//dbpedia.org/resource/Universidade_da_Virgínia> a owl:NamedIndividual;
+  owl:sameAs <Universidade%20de%20Virginia> .
+
+<https%3A//www.wikidata.org/entity/Q123766> a owl:NamedIndividual;
+  owl:sameAs :Charlottesville .
+
+<https%3A//dbpedia.org/resource/Charlottesville> a owl:NamedIndividual;
+  owl:sameAs :Charlottesville .
+
+<https%3A//sws.geonames.org/4752031> a owl:NamedIndividual;
+  owl:sameAs :Charlottesville .
+
+<https%3A//www.wikidata.org/wiki/Q1370> a owl:NamedIndividual;
+  owl:sameAs <Virgínia> .
+
+<http%3A//dbpedia.org/resource/Virgínia> a owl:NamedIndividual;
+  owl:sameAs <Virgínia> .
+
+<http%3A//www.geonames.org/6254928> a owl:NamedIndividual;
+  owl:sameAs <Virgínia> .
+
+<http%3A//www.wikidata.org/entity/Q103971355> a owl:NamedIndividual;
+  owl:sameAs <Estados%20Unidos%20da%20América> .
+
+<http%3A//dbpedia.org/resource/Estados_Unidos> a owl:NamedIndividual;
+  owl:sameAs <Estados%20Unidos%20da%20América> .
+
+<http%3A//www.geonames.org/6252001> a owl:NamedIndividual;
+  owl:sameAs <Estados%20Unidos%20da%20América> .

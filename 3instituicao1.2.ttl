@@ -1,0 +1,343 @@
+@base <http://dados.ufes.br/tcc/data#> .
+@prefix data: <http://dados.ufes.br/tcc/data#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix schema: <http://schema.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix : <http://dados.ufes.br/tcc/onto#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wdo: <http://www.wikidata.org/ontology#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+
+data:CID0001 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Vitória"@pt-BR, "Victory"@en, "https://www.wikidata.org/entity/Q168376"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Vit%C3%B3ria,_Esp%C3%ADrito_Santo"^^xsd:anyURI, "https://sws.geonames.org/6322000"^^xsd:anyURI,
+    "Victoria"@en, "https://sws.geonames.org/6322001"^^xsd:anyURI;
+  wdo:Q82799 "Vitória"@pt-BR, "Victory"@en, "https://www.wikidata.org/entity/Q168376"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Vit%C3%B3ria,_Esp%C3%ADrito_Santo"^^xsd:anyURI, "https://sws.geonames.org/6322000"^^xsd:anyURI,
+    "Espírito Santo"@pt-BR, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "http://www.geonames.org/3463930"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI, "Victoria"@en, "https://sws.geonames.org/6322001"^^xsd:anyURI;
+  schema:name "Vitória"@pt-BR, "Victory"@en, "https://www.wikidata.org/entity/Q168376"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Vit%C3%B3ria,_Esp%C3%ADrito_Santo"^^xsd:anyURI, "https://sws.geonames.org/6322000"^^xsd:anyURI,
+    "Espírito Santo"@pt-BR, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "http://www.geonames.org/3463930"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI, "Victoria"@en, "https://sws.geonames.org/6322001"^^xsd:anyURI;
+  gn:name "Vitória"@pt-BR, "Victory"@en, "https://www.wikidata.org/entity/Q168376"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Vit%C3%B3ria,_Esp%C3%ADrito_Santo"^^xsd:anyURI, "https://sws.geonames.org/6322000"^^xsd:anyURI,
+    "Espírito Santo"@pt-BR, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "http://www.geonames.org/3463930"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI, "Victoria"@en, "https://sws.geonames.org/6322001"^^xsd:anyURI;
+  :estadoLocalFisico "Espírito Santo"@en, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "https://sws.geonames.org/6322000"^^xsd:anyURI,
+    "https://sws.geonames.org/6322001"^^xsd:anyURI;
+  :paisLocalFisico "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q168376"^^xsd:anyURI, "https://dbpedia.org/resource/Vit%C3%B3ria,_Esp%C3%ADrito_Santo"^^xsd:anyURI,
+    "https://sws.geonames.org/6322000"^^xsd:anyURI, "https://sws.geonames.org/6322001"^^xsd:anyURI .
+
+data:CID0003 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Alegre"@pt-BR, "Happy"@en, "https://www.wikidata.org/entity/Q1807909"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Alegre_(Esp%C3%ADrito_Santo)"^^xsd:anyURI, "https://sws.geonames.org/6324236"^^xsd:anyURI;
+  wdo:Q82799 "Alegre"@pt-BR, "Happy"@en, "https://www.wikidata.org/entity/Q1807909"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Alegre_(Esp%C3%ADrito_Santo)"^^xsd:anyURI, "https://sws.geonames.org/6324236"^^xsd:anyURI,
+    "Espírito Santo"@pt-BR, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "http://www.geonames.org/3463930"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  schema:name "Alegre"@pt-BR, "Happy"@en, "https://www.wikidata.org/entity/Q1807909"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Alegre_(Esp%C3%ADrito_Santo)"^^xsd:anyURI, "https://sws.geonames.org/6324236"^^xsd:anyURI,
+    "Espírito Santo"@pt-BR, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "http://www.geonames.org/3463930"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  gn:name "Alegre"@pt-BR, "Happy"@en, "https://www.wikidata.org/entity/Q1807909"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Alegre_(Esp%C3%ADrito_Santo)"^^xsd:anyURI, "https://sws.geonames.org/6324236"^^xsd:anyURI,
+    "Espírito Santo"@pt-BR, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "http://www.geonames.org/3463930"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  :estadoLocalFisico "Espírito Santo"@en, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "https://sws.geonames.org/6324236"^^xsd:anyURI;
+  :paisLocalFisico "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q1807909"^^xsd:anyURI, "https://dbpedia.org/resource/Alegre_(Esp%C3%ADrito_Santo)"^^xsd:anyURI,
+    "https://sws.geonames.org/6324236"^^xsd:anyURI .
+
+data:CID0002 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "São Mateus"@pt-BR, "Saint Matthew"@en, "https://www.wikidata.org/entity/Q1763574"^^xsd:anyURI,
+    "https://dbpedia.org/resource/São_Mateus,_Espírito_Santo"^^xsd:anyURI, "https://sws.geonames.org/6321990"^^xsd:anyURI;
+  wdo:Q82799 "São Mateus"@pt-BR, "Saint Matthew"@en, "https://www.wikidata.org/entity/Q1763574"^^xsd:anyURI,
+    "https://dbpedia.org/resource/São_Mateus,_Espírito_Santo"^^xsd:anyURI, "https://sws.geonames.org/6321990"^^xsd:anyURI,
+    "Espírito Santo"@pt-BR, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "http://www.geonames.org/3463930"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  schema:name "São Mateus"@pt-BR, "Saint Matthew"@en, "https://www.wikidata.org/entity/Q1763574"^^xsd:anyURI,
+    "https://dbpedia.org/resource/São_Mateus,_Espírito_Santo"^^xsd:anyURI, "https://sws.geonames.org/6321990"^^xsd:anyURI,
+    "Espírito Santo"@pt-BR, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "http://www.geonames.org/3463930"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  gn:name "São Mateus"@pt-BR, "Saint Matthew"@en, "https://www.wikidata.org/entity/Q1763574"^^xsd:anyURI,
+    "https://dbpedia.org/resource/São_Mateus,_Espírito_Santo"^^xsd:anyURI, "https://sws.geonames.org/6321990"^^xsd:anyURI,
+    "Espírito Santo"@pt-BR, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "http://www.geonames.org/3463930"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  :estadoLocalFisico "Espírito Santo"@en, "Holy Spirit"@en, "https://www.wikidata.org/wiki/Q43233"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Esp%C3%ADrito_Santo_(estado)"^^xsd:anyURI, "https://sws.geonames.org/6321990"^^xsd:anyURI;
+  :paisLocalFisico "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q1763574"^^xsd:anyURI, "https://dbpedia.org/resource/São_Mateus,_Espírito_Santo"^^xsd:anyURI,
+    "https://sws.geonames.org/6321990"^^xsd:anyURI .
+
+data:CID0004 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Florianópolis"@pt-BR, "Florianopolis"@en, "https://www.wikidata.org/entity/Q132997"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Florianópolis"^^xsd:anyURI, "https://sws.geonames.org/3463237"^^xsd:anyURI;
+  wdo:Q82799 "Florianópolis"@pt-BR, "Florianopolis"@en, "https://www.wikidata.org/entity/Q132997"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Florianópolis"^^xsd:anyURI, "https://sws.geonames.org/3463237"^^xsd:anyURI,
+    "Santa Catarina"@pt-BR, "Holy Catharina"@en, "https://www.wikidata.org/wiki/Q41115"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Santa_Catarina"^^xsd:anyURI, "http://www.geonames.org/3450387"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  schema:name "Florianópolis"@pt-BR, "Florianopolis"@en, "https://www.wikidata.org/entity/Q132997"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Florianópolis"^^xsd:anyURI, "https://sws.geonames.org/3463237"^^xsd:anyURI,
+    "Santa Catarina"@pt-BR, "Holy Catharina"@en, "https://www.wikidata.org/wiki/Q41115"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Santa_Catarina"^^xsd:anyURI, "http://www.geonames.org/3450387"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  gn:name "Florianópolis"@pt-BR, "Florianopolis"@en, "https://www.wikidata.org/entity/Q132997"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Florianópolis"^^xsd:anyURI, "https://sws.geonames.org/3463237"^^xsd:anyURI,
+    "Santa Catarina"@pt-BR, "Holy Catharina"@en, "https://www.wikidata.org/wiki/Q41115"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Santa_Catarina"^^xsd:anyURI, "http://www.geonames.org/3450387"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  :estadoLocalFisico "Santa Catarina"@en, "Holy Catharina"@en, "https://www.wikidata.org/wiki/Q41115"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Santa_Catarina"^^xsd:anyURI, "https://sws.geonames.org/3463237"^^xsd:anyURI;
+  :paisLocalFisico "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q132997"^^xsd:anyURI, "https://dbpedia.org/resource/Florianópolis"^^xsd:anyURI,
+    "https://sws.geonames.org/3463237"^^xsd:anyURI .
+
+data:CID0005 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Juiz de Fora"@pt-BR, "Judge of the Outside"@en, "https://www.wikidata.org/entity/Q193019"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Juiz_de_fora"^^xsd:anyURI, "https://sws.geonames.org/3459505"^^xsd:anyURI;
+  wdo:Q82799 "Juiz de Fora"@pt-BR, "Judge of the Outside"@en, "https://www.wikidata.org/entity/Q193019"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Juiz_de_fora"^^xsd:anyURI, "https://sws.geonames.org/3459505"^^xsd:anyURI,
+    "Minas Gerais"@pt-BR, "General Mines "@en, "https://www.wikidata.org/wiki/Q39109"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Minas_Gerais"^^xsd:anyURI, "http://www.geonames.org/3457153"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  schema:name "Juiz de Fora"@pt-BR, "Judge of the Outside"@en, "https://www.wikidata.org/entity/Q193019"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Juiz_de_fora"^^xsd:anyURI, "https://sws.geonames.org/3459505"^^xsd:anyURI,
+    "Minas Gerais"@pt-BR, "General Mines "@en, "https://www.wikidata.org/wiki/Q39109"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Minas_Gerais"^^xsd:anyURI, "http://www.geonames.org/3457153"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  gn:name "Juiz de Fora"@pt-BR, "Judge of the Outside"@en, "https://www.wikidata.org/entity/Q193019"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Juiz_de_fora"^^xsd:anyURI, "https://sws.geonames.org/3459505"^^xsd:anyURI,
+    "Minas Gerais"@pt-BR, "General Mines "@en, "https://www.wikidata.org/wiki/Q39109"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Minas_Gerais"^^xsd:anyURI, "http://www.geonames.org/3457153"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  :estadoLocalFisico "Minas Gerais"@en, "General Mines "@en, "https://www.wikidata.org/wiki/Q39109"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Minas_Gerais"^^xsd:anyURI, "https://sws.geonames.org/3459505"^^xsd:anyURI;
+  :paisLocalFisico "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q193019"^^xsd:anyURI, "https://dbpedia.org/resource/Juiz_de_fora"^^xsd:anyURI,
+    "https://sws.geonames.org/3459505"^^xsd:anyURI .
+
+data:CID0006 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Natal"@pt-BR, "Christmas"@en, "https://www.wikidata.org/entity/Q131620"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Natal_(Rio_Grande_do_Norte)"^^xsd:anyURI, "https://sws.geonames.org/3394023"^^xsd:anyURI;
+  wdo:Q82799 "Natal"@pt-BR, "Christmas"@en, "https://www.wikidata.org/entity/Q131620"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Natal_(Rio_Grande_do_Norte)"^^xsd:anyURI, "https://sws.geonames.org/3394023"^^xsd:anyURI,
+    "Rio Grande do Norte"@pt-BR, "Big Northern River"@en, "https://www.wikidata.org/wiki/Q43255"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Rio_Grande_do_Norte"^^xsd:anyURI, "http://www.geonames.org/3390290"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  schema:name "Natal"@pt-BR, "Christmas"@en, "https://www.wikidata.org/entity/Q131620"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Natal_(Rio_Grande_do_Norte)"^^xsd:anyURI, "https://sws.geonames.org/3394023"^^xsd:anyURI,
+    "Rio Grande do Norte"@pt-BR, "Big Northern River"@en, "https://www.wikidata.org/wiki/Q43255"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Rio_Grande_do_Norte"^^xsd:anyURI, "http://www.geonames.org/3390290"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  gn:name "Natal"@pt-BR, "Christmas"@en, "https://www.wikidata.org/entity/Q131620"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Natal_(Rio_Grande_do_Norte)"^^xsd:anyURI, "https://sws.geonames.org/3394023"^^xsd:anyURI,
+    "Rio Grande do Norte"@pt-BR, "Big Northern River"@en, "https://www.wikidata.org/wiki/Q43255"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Rio_Grande_do_Norte"^^xsd:anyURI, "http://www.geonames.org/3390290"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  :estadoLocalFisico "Rio Grande do Norte"@en, "Big Northern River"@en, "https://www.wikidata.org/wiki/Q43255"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Rio_Grande_do_Norte"^^xsd:anyURI, "https://sws.geonames.org/3394023"^^xsd:anyURI;
+  :paisLocalFisico "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q131620"^^xsd:anyURI, "https://dbpedia.org/resource/Natal_(Rio_Grande_do_Norte)"^^xsd:anyURI,
+    "https://sws.geonames.org/3394023"^^xsd:anyURI .
+
+data:CID0007 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Belo Horizonte"@pt-BR, "Bealtiful Horizon"@en, "https://www.wikidata.org/entity/Q42800"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Belo_Horizonte"^^xsd:anyURI, "https://sws.geonames.org/3470127"^^xsd:anyURI;
+  wdo:Q82799 "Belo Horizonte"@pt-BR, "Bealtiful Horizon"@en, "https://www.wikidata.org/entity/Q42800"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Belo_Horizonte"^^xsd:anyURI, "https://sws.geonames.org/3470127"^^xsd:anyURI,
+    "Minas Gerais"@pt-BR, "General Mines "@en, "https://www.wikidata.org/wiki/Q39109"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Minas_Gerais"^^xsd:anyURI, "http://www.geonames.org/3457153"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  schema:name "Belo Horizonte"@pt-BR, "Bealtiful Horizon"@en, "https://www.wikidata.org/entity/Q42800"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Belo_Horizonte"^^xsd:anyURI, "https://sws.geonames.org/3470127"^^xsd:anyURI,
+    "Minas Gerais"@pt-BR, "General Mines "@en, "https://www.wikidata.org/wiki/Q39109"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Minas_Gerais"^^xsd:anyURI, "http://www.geonames.org/3457153"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  gn:name "Belo Horizonte"@pt-BR, "Bealtiful Horizon"@en, "https://www.wikidata.org/entity/Q42800"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Belo_Horizonte"^^xsd:anyURI, "https://sws.geonames.org/3470127"^^xsd:anyURI,
+    "Minas Gerais"@pt-BR, "General Mines "@en, "https://www.wikidata.org/wiki/Q39109"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Minas_Gerais"^^xsd:anyURI, "http://www.geonames.org/3457153"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  :estadoLocalFisico "Minas Gerais"@en, "General Mines "@en, "https://www.wikidata.org/wiki/Q39109"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Minas_Gerais"^^xsd:anyURI, "https://sws.geonames.org/3470127"^^xsd:anyURI;
+  :paisLocalFisico "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q42800"^^xsd:anyURI, "https://dbpedia.org/resource/Belo_Horizonte"^^xsd:anyURI,
+    "https://sws.geonames.org/3470127"^^xsd:anyURI .
+
+data:CID0008 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Niterói"@pt-BR, "Nieteroi"@en, "https://www.wikidata.org/entity/Q178725"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Niterói"^^xsd:anyURI, "https://sws.geonames.org/3456283"^^xsd:anyURI;
+  wdo:Q82799 "Niterói"@pt-BR, "Nieteroi"@en, "https://www.wikidata.org/entity/Q178725"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Niterói"^^xsd:anyURI, "https://sws.geonames.org/3456283"^^xsd:anyURI,
+    "Rio de Janeiro"@pt-BR, "River of the January"@en, "https://www.wikidata.org/wiki/Q8678"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI, "http://www.geonames.org/3451189"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  schema:name "Niterói"@pt-BR, "Nieteroi"@en, "https://www.wikidata.org/entity/Q178725"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Niterói"^^xsd:anyURI, "https://sws.geonames.org/3456283"^^xsd:anyURI,
+    "Rio de Janeiro"@pt-BR, "River of the January"@en, "https://www.wikidata.org/wiki/Q8678"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI, "http://www.geonames.org/3451189"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  gn:name "Niterói"@pt-BR, "Nieteroi"@en, "https://www.wikidata.org/entity/Q178725"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Niterói"^^xsd:anyURI, "https://sws.geonames.org/3456283"^^xsd:anyURI,
+    "Rio de Janeiro"@pt-BR, "River of the January"@en, "https://www.wikidata.org/wiki/Q8678"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI, "http://www.geonames.org/3451189"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  :estadoLocalFisico "Rio de Janeiro"@en, "River of the January"@en, "https://www.wikidata.org/wiki/Q8678"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI, "https://sws.geonames.org/3456283"^^xsd:anyURI;
+  :paisLocalFisico "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q178725"^^xsd:anyURI, "https://dbpedia.org/resource/Niterói"^^xsd:anyURI,
+    "https://sws.geonames.org/3456283"^^xsd:anyURI .
+
+data:CID0009 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Rio de Janeiro"@pt-BR, "River of the January"@en, "https://www.wikidata.org/entity/Q8678"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI, "https://sws.geonames.org/3451190"^^xsd:anyURI;
+  wdo:Q82799 "Rio de Janeiro"@pt-BR, "River of the January"@en, "https://www.wikidata.org/entity/Q8678"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI, "https://sws.geonames.org/3451190"^^xsd:anyURI,
+    "https://www.wikidata.org/wiki/Q8678"^^xsd:anyURI, "http://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI,
+    "http://www.geonames.org/3451189"^^xsd:anyURI, "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  schema:name "Rio de Janeiro"@pt-BR, "River of the January"@en, "https://www.wikidata.org/entity/Q8678"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI, "https://sws.geonames.org/3451190"^^xsd:anyURI,
+    "https://www.wikidata.org/wiki/Q8678"^^xsd:anyURI, "http://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI,
+    "http://www.geonames.org/3451189"^^xsd:anyURI, "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  gn:name "Rio de Janeiro"@pt-BR, "River of the January"@en, "https://www.wikidata.org/entity/Q8678"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI, "https://sws.geonames.org/3451190"^^xsd:anyURI,
+    "https://www.wikidata.org/wiki/Q8678"^^xsd:anyURI, "http://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI,
+    "http://www.geonames.org/3451189"^^xsd:anyURI, "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  :estadoLocalFisico "Rio de Janeiro"@en, "River of the January"@en, "https://www.wikidata.org/wiki/Q8678"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI, "https://sws.geonames.org/3451190"^^xsd:anyURI;
+  :paisLocalFisico "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q8678"^^xsd:anyURI, "https://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI,
+    "https://sws.geonames.org/3451190"^^xsd:anyURI .
+
+data:CID0010 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Londrina"@pt-BR, "Parana"@en, "https://www.wikidata.org/entity/Q192387"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Londrina"^^xsd:anyURI, "https://sws.geonames.org/"^^xsd:anyURI;
+  wdo:Q82799 "Londrina"@pt-BR, "Parana"@en, "https://www.wikidata.org/entity/Q192387"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Londrina"^^xsd:anyURI, "https://sws.geonames.org/"^^xsd:anyURI,
+    "Paraná"@pt-BR, "https://www.wikidata.org/wiki/Q15499"^^xsd:anyURI, "http://dbpedia.org/resource/Paraná"^^xsd:anyURI,
+    "http://www.geonames.org/3455077"^^xsd:anyURI, "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  schema:name "Londrina"@pt-BR, "Parana"@en, "https://www.wikidata.org/entity/Q192387"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Londrina"^^xsd:anyURI, "https://sws.geonames.org/"^^xsd:anyURI,
+    "Paraná"@pt-BR, "https://www.wikidata.org/wiki/Q15499"^^xsd:anyURI, "http://dbpedia.org/resource/Paraná"^^xsd:anyURI,
+    "http://www.geonames.org/3455077"^^xsd:anyURI, "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  gn:name "Londrina"@pt-BR, "Parana"@en, "https://www.wikidata.org/entity/Q192387"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Londrina"^^xsd:anyURI, "https://sws.geonames.org/"^^xsd:anyURI,
+    "Paraná"@pt-BR, "https://www.wikidata.org/wiki/Q15499"^^xsd:anyURI, "http://dbpedia.org/resource/Paraná"^^xsd:anyURI,
+    "http://www.geonames.org/3455077"^^xsd:anyURI, "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  :estadoLocalFisico "Paraná"@en, "Parana"@en, "https://www.wikidata.org/wiki/Q15499"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Paraná"^^xsd:anyURI, "https://sws.geonames.org/"^^xsd:anyURI;
+  :paisLocalFisico "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q192387"^^xsd:anyURI, "https://dbpedia.org/resource/Londrina"^^xsd:anyURI,
+    "https://sws.geonames.org/"^^xsd:anyURI .
+
+data:CID0011 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Bauru"@pt-BR, "Bauru"@en, "https://www.wikidata.org/entity/Q241645"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Bauru"^^xsd:anyURI, "https://sws.geonames.org/"^^xsd:anyURI;
+  wdo:Q82799 "Bauru"@pt-BR, "Bauru"@en, "https://www.wikidata.org/entity/Q241645"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Bauru"^^xsd:anyURI, "https://sws.geonames.org/"^^xsd:anyURI,
+    "São Paulo"@pt-BR, "Sao Paul"@en, "https://www.wikidata.org/wiki/Q174"^^xsd:anyURI,
+    "http://dbpedia.org/resource/São_Paulo"^^xsd:anyURI, "http://www.geonames.org/3448433"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  schema:name "Bauru"@pt-BR, "Bauru"@en, "https://www.wikidata.org/entity/Q241645"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Bauru"^^xsd:anyURI, "https://sws.geonames.org/"^^xsd:anyURI,
+    "São Paulo"@pt-BR, "Sao Paul"@en, "https://www.wikidata.org/wiki/Q174"^^xsd:anyURI,
+    "http://dbpedia.org/resource/São_Paulo"^^xsd:anyURI, "http://www.geonames.org/3448433"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  gn:name "Bauru"@pt-BR, "Bauru"@en, "https://www.wikidata.org/entity/Q241645"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Bauru"^^xsd:anyURI, "https://sws.geonames.org/"^^xsd:anyURI,
+    "São Paulo"@pt-BR, "Sao Paul"@en, "https://www.wikidata.org/wiki/Q174"^^xsd:anyURI,
+    "http://dbpedia.org/resource/São_Paulo"^^xsd:anyURI, "http://www.geonames.org/3448433"^^xsd:anyURI,
+    "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI, "http://dbpedia.org/resource/Brasil"^^xsd:anyURI,
+    "http://www.geonames.org/3469034"^^xsd:anyURI;
+  :estadoLocalFisico "São Paulo"@en, "Sao Paul"@en, "https://www.wikidata.org/wiki/Q174"^^xsd:anyURI,
+    "http://dbpedia.org/resource/São_Paulo"^^xsd:anyURI, "https://sws.geonames.org/"^^xsd:anyURI;
+  :paisLocalFisico "Brasil"@pt-BR, "Brazil"@en, "http://www.wikidata.org/entity/Q155"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Brasil"^^xsd:anyURI, "http://www.geonames.org/3469034"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q241645"^^xsd:anyURI, "https://dbpedia.org/resource/Bauru"^^xsd:anyURI,
+    "https://sws.geonames.org/"^^xsd:anyURI .
+
+data:CID0012 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Charlottesville"@pt-BR, "Charlottesville"@en, "https://www.wikidata.org/entity/Q123766"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Charlottesville"^^xsd:anyURI, "https://sws.geonames.org/4752031"^^xsd:anyURI;
+  wdo:Q82799 "Charlottesville"@pt-BR, "Charlottesville"@en, "https://www.wikidata.org/entity/Q123766"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Charlottesville"^^xsd:anyURI, "https://sws.geonames.org/4752031"^^xsd:anyURI,
+    "Virgínia"@pt-BR, "Virginia"@en, "https://www.wikidata.org/wiki/Q1370"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Virgínia"^^xsd:anyURI, "http://www.geonames.org/6254928"^^xsd:anyURI,
+    "Estados Unidos da América"@pt-BR, "United States of America"@en, "http://www.wikidata.org/entity/Q103971355"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Estados_Unidos"^^xsd:anyURI, "http://www.geonames.org/6252001"^^xsd:anyURI;
+  schema:name "Charlottesville"@pt-BR, "Charlottesville"@en, "https://www.wikidata.org/entity/Q123766"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Charlottesville"^^xsd:anyURI, "https://sws.geonames.org/4752031"^^xsd:anyURI,
+    "Virgínia"@pt-BR, "Virginia"@en, "https://www.wikidata.org/wiki/Q1370"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Virgínia"^^xsd:anyURI, "http://www.geonames.org/6254928"^^xsd:anyURI,
+    "Estados Unidos da América"@pt-BR, "United States of America"@en, "http://www.wikidata.org/entity/Q103971355"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Estados_Unidos"^^xsd:anyURI, "http://www.geonames.org/6252001"^^xsd:anyURI;
+  gn:name "Charlottesville"@pt-BR, "Charlottesville"@en, "https://www.wikidata.org/entity/Q123766"^^xsd:anyURI,
+    "https://dbpedia.org/resource/Charlottesville"^^xsd:anyURI, "https://sws.geonames.org/4752031"^^xsd:anyURI,
+    "Virgínia"@pt-BR, "Virginia"@en, "https://www.wikidata.org/wiki/Q1370"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Virgínia"^^xsd:anyURI, "http://www.geonames.org/6254928"^^xsd:anyURI,
+    "Estados Unidos da América"@pt-BR, "United States of America"@en, "http://www.wikidata.org/entity/Q103971355"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Estados_Unidos"^^xsd:anyURI, "http://www.geonames.org/6252001"^^xsd:anyURI;
+  :estadoLocalFisico "Virgínia"@en, "Virginia"@en, "https://www.wikidata.org/wiki/Q1370"^^xsd:anyURI,
+    "http://dbpedia.org/resource/Virgínia"^^xsd:anyURI, "https://sws.geonames.org/4752031"^^xsd:anyURI;
+  :paisLocalFisico "Estados Unidos da América"@pt-BR, "United States of America"@en,
+    "http://www.wikidata.org/entity/Q103971355"^^xsd:anyURI, "http://dbpedia.org/resource/Estados_Unidos"^^xsd:anyURI,
+    "http://www.geonames.org/6252001"^^xsd:anyURI;
+  owl:sameAs "https://www.wikidata.org/entity/Q123766"^^xsd:anyURI, "https://dbpedia.org/resource/Charlottesville"^^xsd:anyURI,
+    "https://sws.geonames.org/4752031"^^xsd:anyURI .

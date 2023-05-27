@@ -1,0 +1,106 @@
+@base <http://dados.ufes.br/tcc/data#> .
+@prefix data: <http://dados.ufes.br/tcc/data#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix : <http://dados.ufes.br/tcc/onto#> .
+@prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix schema: <http://schema.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wdo: <http://www.wikidata.org/ontology#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+
+data:CID0001 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Vitória";
+  wdo:Q82799 "Vitória";
+  schema:name "Vitória";
+  gn:name "Vitória";
+  owl:sameAs "https://www.wikidata.org/entity/Q168376"^^xsd:anyURI, "https://dbpedia.org/resource/Vit%C3%B3ria,_Esp%C3%ADrito_Santo"^^xsd:anyURI,
+    "https://sws.geonames.org/6322000"^^xsd:anyURI, "https://sws.geonames.org/6322001"^^xsd:anyURI .
+
+data:CID0003 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Alegre";
+  wdo:Q82799 "Alegre";
+  schema:name "Alegre";
+  gn:name "Alegre";
+  owl:sameAs "https://www.wikidata.org/entity/Q1807909"^^xsd:anyURI, "https://dbpedia.org/resource/Alegre_(Esp%C3%ADrito_Santo)"^^xsd:anyURI,
+    "https://sws.geonames.org/6324236"^^xsd:anyURI .
+
+data:CID0002 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "São Mateus";
+  wdo:Q82799 "São Mateus";
+  schema:name "São Mateus";
+  gn:name "São Mateus";
+  owl:sameAs "https://www.wikidata.org/entity/Q1763574"^^xsd:anyURI, "https://dbpedia.org/resource/São_Mateus,_Espírito_Santo"^^xsd:anyURI,
+    "https://sws.geonames.org/6321990"^^xsd:anyURI .
+
+data:CID0004 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Florianópolis";
+  wdo:Q82799 "Florianópolis";
+  schema:name "Florianópolis";
+  gn:name "Florianópolis";
+  owl:sameAs "https://www.wikidata.org/entity/Q132997"^^xsd:anyURI, "https://dbpedia.org/resource/Florianópolis"^^xsd:anyURI,
+    "https://sws.geonames.org/3463237"^^xsd:anyURI .
+
+data:CID0005 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Juiz de Fora";
+  wdo:Q82799 "Juiz de Fora";
+  schema:name "Juiz de Fora";
+  gn:name "Juiz de Fora";
+  owl:sameAs "https://www.wikidata.org/entity/Q193019"^^xsd:anyURI, "https://dbpedia.org/resource/Juiz_de_fora"^^xsd:anyURI,
+    "https://sws.geonames.org/3459505"^^xsd:anyURI .
+
+data:CID0006 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Natal";
+  wdo:Q82799 "Natal";
+  schema:name "Natal";
+  gn:name "Natal";
+  owl:sameAs "https://www.wikidata.org/entity/Q131620"^^xsd:anyURI, "https://dbpedia.org/resource/Natal_(Rio_Grande_do_Norte)"^^xsd:anyURI,
+    "https://sws.geonames.org/3394023"^^xsd:anyURI .
+
+data:CID0007 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Belo Horizonte";
+  wdo:Q82799 "Belo Horizonte";
+  schema:name "Belo Horizonte";
+  gn:name "Belo Horizonte";
+  owl:sameAs "https://www.wikidata.org/entity/Q42800"^^xsd:anyURI, "https://dbpedia.org/resource/Belo_Horizonte"^^xsd:anyURI,
+    "https://sws.geonames.org/3470127"^^xsd:anyURI .
+
+data:CID0008 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Niterói";
+  wdo:Q82799 "Niterói";
+  schema:name "Niterói";
+  gn:name "Niterói";
+  owl:sameAs "https://www.wikidata.org/entity/Q178725"^^xsd:anyURI, "https://dbpedia.org/resource/Niterói"^^xsd:anyURI,
+    "https://sws.geonames.org/3456283"^^xsd:anyURI .
+
+data:CID0009 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Rio de Janeiro";
+  wdo:Q82799 "Rio de Janeiro";
+  schema:name "Rio de Janeiro";
+  gn:name "Rio de Janeiro";
+  owl:sameAs "https://www.wikidata.org/entity/Q8678"^^xsd:anyURI, "https://dbpedia.org/resource/Rio_de_Janeiro"^^xsd:anyURI,
+    "https://sws.geonames.org/3451190"^^xsd:anyURI .
+
+data:CID0010 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Londrina";
+  wdo:Q82799 "Londrina";
+  schema:name "Londrina";
+  gn:name "Londrina";
+  owl:sameAs "https://www.wikidata.org/entity/Q192387"^^xsd:anyURI, "https://dbpedia.org/resource/Londrina"^^xsd:anyURI,
+    "https://sws.geonames.org/"^^xsd:anyURI .
+
+data:CID0011 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Bauru";
+  wdo:Q82799 "Bauru";
+  schema:name "Bauru";
+  gn:name "Bauru";
+  owl:sameAs "https://www.wikidata.org/entity/Q241645"^^xsd:anyURI, "https://dbpedia.org/resource/Bauru"^^xsd:anyURI,
+    "https://sws.geonames.org/"^^xsd:anyURI .
+
+data:CID0012 a owl:NamedIndividual, bibframe:Place, schema:Place, dc:Location, :LocalFisico;
+  :cidadeLocalFisico "Charlottesville";
+  wdo:Q82799 "Charlottesville";
+  schema:name "Charlottesville";
+  gn:name "Charlottesville";
+  owl:sameAs "https://www.wikidata.org/entity/Q123766"^^xsd:anyURI, "https://dbpedia.org/resource/Charlottesville"^^xsd:anyURI,
+    "https://sws.geonames.org/4752031"^^xsd:anyURI .

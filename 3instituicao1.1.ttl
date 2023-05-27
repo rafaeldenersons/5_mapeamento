@@ -1,0 +1,307 @@
+@base <http://dados.ufes.br/tcc/data#> .
+@prefix data: <http://dados.ufes.br/tcc/data#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wdo: <http://www.wikidata.org/ontology#> .
+@prefix schema: <http://schema.org/> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontology/cwrc#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix pext: <http://www.ontotext.com/proton/protonext#> .
+@prefix : <http://dados.ufes.br/tcc/onto#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix bibframe: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dqm: <http://purl.org/dqm-vocabulary/v1/dqm#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix wde: <https://www.wikidata.org/entity/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+data:INS0001 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UFES";
+  vivo:abbreviation "UFES";
+  :nomeIES "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  owl:sameAs wde:Q10387830, dbpedia:Universidade_Federal_do_Espírito_Santo;
+  bibframe:grantingInstitution "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  wdo:PP1813 "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  :uriIES "https://www.ufes.br/"^^xsd:anyURI;
+  dqm:hasURI "https://www.ufes.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0001";
+  wdo:Q82799 "Universidade Federal do Espírito Santo";
+  schema:name "Universidade Federal do Espírito Santo";
+  gn:name "Universidade Federal do Espírito Santo" .
+
+data:INS0002 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UFES";
+  vivo:abbreviation "UFES";
+  :nomeIES "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  owl:sameAs wde:Q10387830, dbpedia:Universidade_Federal_do_Espírito_Santo;
+  bibframe:grantingInstitution "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  wdo:PP1813 "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  :uriIES "https://alegre.ufes.br/"^^xsd:anyURI;
+  dqm:hasURI "https://alegre.ufes.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0003";
+  wdo:Q82799 "Universidade Federal do Espírito Santo";
+  schema:name "Universidade Federal do Espírito Santo";
+  gn:name "Universidade Federal do Espírito Santo" .
+
+data:INS0003 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UFES";
+  vivo:abbreviation "UFES";
+  :nomeIES "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  owl:sameAs wde:Q10387830, dbpedia:Universidade_Federal_do_Espírito_Santo;
+  bibframe:grantingInstitution "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  wdo:PP1813 "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  :uriIES "https://www.ufes.br/"^^xsd:anyURI;
+  dqm:hasURI "https://www.ufes.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0001";
+  wdo:Q82799 "Universidade Federal do Espírito Santo";
+  schema:name "Universidade Federal do Espírito Santo";
+  gn:name "Universidade Federal do Espírito Santo" .
+
+data:INS0004 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UFES";
+  vivo:abbreviation "UFES";
+  :nomeIES "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  owl:sameAs wde:Q10387830, dbpedia:Universidade_Federal_do_Espírito_Santo;
+  bibframe:grantingInstitution "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  wdo:PP1813 "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  :uriIES "https://ccs.ufes.br/"^^xsd:anyURI;
+  dqm:hasURI "https://ccs.ufes.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0001";
+  wdo:Q82799 "Universidade Federal do Espírito Santo";
+  schema:name "Universidade Federal do Espírito Santo";
+  gn:name "Universidade Federal do Espírito Santo" .
+
+data:INS0005 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UFES";
+  vivo:abbreviation "UFES";
+  :nomeIES "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  owl:sameAs wde:Q10387830, dbpedia:Universidade_Federal_do_Espírito_Santo;
+  bibframe:grantingInstitution "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  wdo:PP1813 "Universidade Federal do Espírito Santo"@pt-BR, "Federal University of Espírito Santo"@en;
+  :uriIES "https://saomateus.ufes.br/"^^xsd:anyURI;
+  dqm:hasURI "https://saomateus.ufes.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0002";
+  wdo:Q82799 "Universidade Federal do Espírito Santo";
+  schema:name "Universidade Federal do Espírito Santo";
+  gn:name "Universidade Federal do Espírito Santo" .
+
+data:INS0006 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "IFES";
+  vivo:abbreviation "IFES";
+  :nomeIES "Instituto Federal do Espírito Santo"@pt-BR, "Instituto Federal do Espírito Santo"@en;
+  owl:sameAs wde:Q10302497, dbpedia:Instituto_Federal_do_Espírito_Santo;
+  bibframe:grantingInstitution "Instituto Federal do Espírito Santo"@pt-BR, "Instituto Federal do Espírito Santo"@en;
+  wdo:PP1813 "Instituto Federal do Espírito Santo"@pt-BR, "Instituto Federal do Espírito Santo"@en;
+  :uriIES "https://vitoria.ifes.edu.br/"^^xsd:anyURI;
+  dqm:hasURI "https://vitoria.ifes.edu.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0001";
+  wdo:Q82799 "Instituto Federal do Espírito Santo";
+  schema:name "Instituto Federal do Espírito Santo";
+  gn:name "Instituto Federal do Espírito Santo" .
+
+data:INS0007 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UFSC";
+  vivo:abbreviation "UFSC";
+  :nomeIES "Universidade Federal de Santa Catarina"@pt-BR, "Universidade Federal de Santa Catarina"@en;
+  owl:sameAs wde:Q1851075, dbpedia:Universidade_Federal_de_Santa_Catarina;
+  bibframe:grantingInstitution "Universidade Federal de Santa Catarina"@pt-BR, "Universidade Federal de Santa Catarina"@en;
+  wdo:PP1813 "Universidade Federal de Santa Catarina"@pt-BR, "Universidade Federal de Santa Catarina"@en;
+  :uriIES "https://ufsc.br/"^^xsd:anyURI;
+  dqm:hasURI "https://ufsc.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0004";
+  wdo:Q82799 "Universidade Federal de Santa Catarina";
+  schema:name "Universidade Federal de Santa Catarina";
+  gn:name "Universidade Federal de Santa Catarina" .
+
+data:INS0008 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UnB";
+  vivo:abbreviation "UnB";
+  :nomeIES "Universidade de Brasília"@pt-BR, "University of Brasília"@en;
+  owl:sameAs wde:Q1330634, dbpedia:Universidade_de_Brasília;
+  bibframe:grantingInstitution "Universidade de Brasília"@pt-BR, "University of Brasília"@en;
+  wdo:PP1813 "Universidade de Brasília"@pt-BR, "University of Brasília"@en;
+  :uriIES "https://www.unb.br/"^^xsd:anyURI;
+  dqm:hasURI "https://www.unb.br/"^^xsd:anyURI;
+  wdo:Q82799 "Universidade de Brasília";
+  schema:name "Universidade de Brasília";
+  gn:name "Universidade de Brasília" .
+
+data:INS0009 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UFJF";
+  vivo:abbreviation "UFJF";
+  :nomeIES "Universidade Federal de Juiz de Fora"@pt-BR, "Federal University of Juiz de Fora"@en;
+  owl:sameAs wde:Q7894373, dbpedia:Universidade_Federal_de_Juiz_de_Fora;
+  bibframe:grantingInstitution "Universidade Federal de Juiz de Fora"@pt-BR, "Federal University of Juiz de Fora"@en;
+  wdo:PP1813 "Universidade Federal de Juiz de Fora"@pt-BR, "Federal University of Juiz de Fora"@en;
+  :uriIES "https://www2.ufjf.br/ufjf/"^^xsd:anyURI;
+  dqm:hasURI "https://www2.ufjf.br/ufjf/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0005";
+  wdo:Q82799 "Universidade Federal de Juiz de Fora";
+  schema:name "Universidade Federal de Juiz de Fora";
+  gn:name "Universidade Federal de Juiz de Fora" .
+
+data:INS0010 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UFRN";
+  vivo:abbreviation "UFRN";
+  :nomeIES "Universidade Federal do Rio Grande do Norte"@pt-BR, "Federal University of Rio Grande do Norte"@en;
+  owl:sameAs wde:Q3847505, dbpedia:Universidade_Federal_do_Rio_Grande_do_Norte;
+  bibframe:grantingInstitution "Universidade Federal do Rio Grande do Norte"@pt-BR,
+    "Federal University of Rio Grande do Norte"@en;
+  wdo:PP1813 "Universidade Federal do Rio Grande do Norte"@pt-BR, "Federal University of Rio Grande do Norte"@en;
+  :uriIES "https://www.ufrn.br/"^^xsd:anyURI;
+  dqm:hasURI "https://www.ufrn.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0006";
+  wdo:Q82799 "Universidade Federal do Rio Grande do Norte";
+  schema:name "Universidade Federal do Rio Grande do Norte";
+  gn:name "Universidade Federal do Rio Grande do Norte" .
+
+data:INS0011 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UFMG";
+  vivo:abbreviation "UFMG";
+  :nomeIES "Universidade Federal de Minas Gerais"@pt-BR, "Federal University of Minas Gerais"@en;
+  owl:sameAs wde:Q132140, dbpedia:Universidade_Federal_de_Minas_Gerais;
+  bibframe:grantingInstitution "Universidade Federal de Minas Gerais"@pt-BR, "Federal University of Minas Gerais"@en;
+  wdo:PP1813 "Universidade Federal de Minas Gerais"@pt-BR, "Federal University of Minas Gerais"@en;
+  :uriIES "https://ufmg.br/"^^xsd:anyURI;
+  dqm:hasURI "https://ufmg.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0007";
+  wdo:Q82799 "Universidade Federal de Minas Gerais";
+  schema:name "Universidade Federal de Minas Gerais";
+  gn:name "Universidade Federal de Minas Gerais" .
+
+data:INS0012 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UFF";
+  vivo:abbreviation "UFF";
+  :nomeIES "Universidade Federal Fluminense"@pt-BR, "Fluminense Federal University"@en;
+  owl:sameAs wde:Q280247, dbpedia:Universidade_Federal_Fluminense;
+  bibframe:grantingInstitution "Universidade Federal Fluminense"@pt-BR, "Fluminense Federal University"@en;
+  wdo:PP1813 "Universidade Federal Fluminense"@pt-BR, "Fluminense Federal University"@en;
+  :uriIES "https://www.uff.br/"^^xsd:anyURI;
+  dqm:hasURI "https://www.uff.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0008";
+  wdo:Q82799 "Universidade Federal Fluminense";
+  schema:name "Universidade Federal Fluminense";
+  gn:name "Universidade Federal Fluminense" .
+
+data:INS0013 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "PUC-Rio";
+  vivo:abbreviation "PUC-Rio";
+  :nomeIES "Pontifícia Universidade Católica do Rio de Janeiro"@pt-BR, "Pontifical Catholic University of Rio de Janeiro"@en;
+  owl:sameAs wde:Q1857293, dbpedia:Pontifícia_Universidade_Católica_do_Rio_de_Janeiro;
+  bibframe:grantingInstitution "Pontifícia Universidade Católica do Rio de Janeiro"@pt-BR,
+    "Pontifical Catholic University of Rio de Janeiro"@en;
+  wdo:PP1813 "Pontifícia Universidade Católica do Rio de Janeiro"@pt-BR, "Pontifical Catholic University of Rio de Janeiro"@en;
+  :uriIES "https://www.puc-rio.br/index.html"^^xsd:anyURI;
+  dqm:hasURI "https://www.puc-rio.br/index.html"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0009";
+  wdo:Q82799 "Pontifícia Universidade Católica do Rio de Janeiro";
+  schema:name "Pontifícia Universidade Católica do Rio de Janeiro";
+  gn:name "Pontifícia Universidade Católica do Rio de Janeiro" .
+
+data:INS0014 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UEL";
+  vivo:abbreviation "UEL";
+  :nomeIES "Universidade Estadual de Londrina"@pt-BR, "State University of Londrina"@en;
+  owl:sameAs wde:Q7894364, dbpedia:Universidade_Estadual_de_Londrina;
+  bibframe:grantingInstitution "Universidade Estadual de Londrina"@pt-BR, "State University of Londrina"@en;
+  wdo:PP1813 "Universidade Estadual de Londrina"@pt-BR, "State University of Londrina"@en;
+  :uriIES "https://portal.uel.br/home/"^^xsd:anyURI;
+  dqm:hasURI "https://portal.uel.br/home/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0010";
+  wdo:Q82799 "Universidade Estadual de Londrina";
+  schema:name "Universidade Estadual de Londrina";
+  gn:name "Universidade Estadual de Londrina" .
+
+data:INS0015 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UNESP";
+  vivo:abbreviation "UNESP";
+  :nomeIES "Universidade Estadual Paulista"@pt-BR, "São Paulo State University"@en;
+  owl:sameAs wde:Q1817137, dbpedia:Universidade_Estadual_Paulista;
+  bibframe:grantingInstitution "Universidade Estadual Paulista"@pt-BR, "São Paulo State University"@en;
+  wdo:PP1813 "Universidade Estadual Paulista"@pt-BR, "São Paulo State University"@en;
+  :uriIES "https://www2.unesp.br/"^^xsd:anyURI;
+  dqm:hasURI "https://www2.unesp.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0011";
+  wdo:Q82799 "Universidade Estadual Paulista";
+  schema:name "Universidade Estadual Paulista";
+  gn:name "Universidade Estadual Paulista" .
+
+data:INS0016 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UNIRIO";
+  vivo:abbreviation "UNIRIO";
+  :nomeIES "Universidade Federal do Estado do Rio de Janeiro"@pt-BR, "Federal University of the State of Rio de Janeiro"@en;
+  owl:sameAs wde:Q3011938, dbpedia:Universidade_Federal_do_Estado_do_Rio_de_Janeiro;
+  bibframe:grantingInstitution "Universidade Federal do Estado do Rio de Janeiro"@pt-BR,
+    "Federal University of the State of Rio de Janeiro"@en;
+  wdo:PP1813 "Universidade Federal do Estado do Rio de Janeiro"@pt-BR, "Federal University of the State of Rio de Janeiro"@en;
+  :uriIES "http://www.unirio.br/"^^xsd:anyURI;
+  dqm:hasURI "http://www.unirio.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0009";
+  wdo:Q82799 "Universidade Federal do Estado do Rio de Janeiro";
+  schema:name "Universidade Federal do Estado do Rio de Janeiro";
+  gn:name "Universidade Federal do Estado do Rio de Janeiro" .
+
+data:INS0017 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UDESC";
+  vivo:abbreviation "UDESC";
+  :nomeIES "Universidade do Estado de Santa Catarina"@pt-BR, "Universidade do Estado de Santa Catarina"@en;
+  owl:sameAs wde:Q3551702, dbpedia:Universidade_do_Estado_de_Santa_Catarina;
+  bibframe:grantingInstitution "Universidade do Estado de Santa Catarina"@pt-BR, "Universidade do Estado de Santa Catarina"@en;
+  wdo:PP1813 "Universidade do Estado de Santa Catarina"@pt-BR, "Universidade do Estado de Santa Catarina"@en;
+  :uriIES "https://www.udesc.br/"^^xsd:anyURI;
+  dqm:hasURI "https://www.udesc.br/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0004";
+  wdo:Q82799 "Universidade do Estado de Santa Catarina";
+  schema:name "Universidade do Estado de Santa Catarina";
+  gn:name "Universidade do Estado de Santa Catarina" .
+
+data:INS0018 a owl:NamedIndividual, wdo:Q2385804, wdo:Q5341295, wdo:Q1211427, schema:EducationalOrganization,
+    cwrc:EducationalOrganization, sio:SIO_000290, dbo:EducationalInstitution, pext:EducationalOrganization,
+    pext:University, :InstituicaoEnsinoSuperior;
+  :siglaIES "UVA";
+  vivo:abbreviation "UVA";
+  :nomeIES "Universidade de Virginia"@pt-BR, "University of Virginia"@en;
+  owl:sameAs wde:Q213439, dbpedia:Universidade_da_Virgínia;
+  bibframe:grantingInstitution "Universidade de Virginia"@pt-BR, "University of Virginia"@en;
+  wdo:PP1813 "Universidade de Virginia"@pt-BR, "University of Virginia"@en;
+  :uriIES "https://www.virginia.edu/"^^xsd:anyURI;
+  dqm:hasURI "https://www.virginia.edu/"^^xsd:anyURI;
+  :localizadaEmLocalFisico "CID0012";
+  wdo:Q82799 "Universidade de Virginia";
+  schema:name "Universidade de Virginia";
+  gn:name "Universidade de Virginia" .
